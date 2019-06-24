@@ -1,7 +1,7 @@
 package com.andrewprogramming.gaokao.entity;
 
 
-public class Huananligong {
+public class SchoolDetail {
     private String school_id;
     private String special_id;
     private String type;

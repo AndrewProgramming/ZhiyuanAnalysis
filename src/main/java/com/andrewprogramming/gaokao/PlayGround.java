@@ -7,12 +7,13 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 
-public class PlayGround {
-    public static void main(String[] args) {
-        Map map=Util.readingMapFromFile("SchoolIdNameMap.txt");
-        System.out.println(map.get("31"));
-
-
-
+class F {
+    public static void main( String ... args ) {
+        String [] status =  { "EXECUTING", "READY-SUSPENDED", "CREATED" };
+        int [] pids =  {123, 34, 1231 };
+        int i = 0;
+        for( String s : status ) {
+            System.out.printf("Process PID: %-5d Status : %s%n", pids[i++], s);
+        }
     }
 }

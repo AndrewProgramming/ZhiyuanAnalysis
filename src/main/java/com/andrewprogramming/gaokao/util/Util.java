@@ -34,9 +34,6 @@ public class Util {
 
             // Read objects
             HashMap<String, String> map = (HashMap<String, String>) oi.readObject();
-            System.out.println(map);
-
-
             return map;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
