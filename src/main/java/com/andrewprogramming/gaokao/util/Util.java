@@ -7,7 +7,7 @@ import java.util.Map;
 public class Util {
     public static void savingMapToFile(Map map, String fileName) {
         try {
-            FileOutputStream f = new FileOutputStream(fileName,true);
+            FileOutputStream f = new FileOutputStream(fileName, true);
 
             ObjectOutputStream o = new ObjectOutputStream(f);
 
@@ -24,24 +24,35 @@ public class Util {
         }
     }
 
-    public static void readingMapFromFile(String fileName) {
+    public static HashMap<String, String> readingMapFromFile(String fileName) {
+        FileInputStream fi = null;
+        ObjectInputStream oi = null;
+
         try {
-            FileInputStream fi = new FileInputStream(new File(fileName));
-            ObjectInputStream oi = new ObjectInputStream(fi);
+            fi = new FileInputStream(new File(fileName));
+            oi = new ObjectInputStream(fi);
 
             // Read objects
             HashMap<String, String> map = (HashMap<String, String>) oi.readObject();
+            System.out.println(map);
 
 
-            oi.close();
-            fi.close();
+            return map;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
+        } finally {
+            try {
+                oi.close();
+                fi.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
+        return null;
     }
 
     private static boolean isInteger(String s, int radix) {

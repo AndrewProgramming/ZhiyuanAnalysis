@@ -58,7 +58,7 @@ public class Controller {
             for (Huananligong item : list) {
 //                System.out.println(map.ge);
                 if (item.getSpname().startsWith("软件") || item.getSpname().startsWith("自动化") || item.getSpname().startsWith("计算机") || item.getSpname().startsWith("电子信息类")) {
-                    System.out.println(item.getSpname() + "," + "最低排名:" + item.getMin_section() + "," + "最低分:" + item.getMin() + "," + "最高分:" + item.getMax() + "," + "平均分:" + item.getAverage());
+                    System.out.println(item.getSpname()+"    " + "," + "最低排名:" + item.getMin_section() + "," + "最低分:" + item.getMin() + "," + "最高分:" + item.getMax() + "," + "平均分:" + item.getAverage());
                 }
 //            if (isInteger(item.getMin_section(), 10) && Integer.parseInt(item.getMin_section()) >= 9845) {
 //                System.out.println(item.getSpname() + "," + "最低排名：" + item.getMin_section() + "," + "最低分" + item.getMin() + "," + "最高分" + item.getMax());            }
@@ -143,12 +143,16 @@ public class Controller {
 //            System.out.println("---2015年---");
 //            sendGet("https://static-data.eol.cn/www/2.0/schoolspecialindex/2015/104/44/1/1.json");
 
-            System.out.println("------school-------");
-            for (int i = 1; i < 200; i++) {
+            map = Util.readingMapFromFile("SchoolIdNameMap.txt");
+            System.out.println(map);
+            for (int i = 30; i < 50; i++) {
+                System.out.println("###" + map.get(i + "") + "###");
                 for (int j = 2015; j <= 2018; j++) {
+                    System.out.println("    -year" + j + "-");
                     String tempUrl = "https://static-data.eol.cn/www/2.0/schoolspecialindex/" + j + "/" + i + "/44/1/1.json";
                     sendGet(tempUrl);
                 }
+                System.out.println();
 
             }
 
