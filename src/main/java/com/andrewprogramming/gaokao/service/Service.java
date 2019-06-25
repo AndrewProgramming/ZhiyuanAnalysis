@@ -36,7 +36,10 @@ public class Service {
 
     public void writeYggkDataToCSV(String fileName) {
 
-        for (int counter = 0; counter <= 40; counter += 20) {
+        int END = 40;
+        int START = 0;
+
+        for (int counter = START; counter <= END; counter += 20) {
             String url = "https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-" + counter + ".dhtml";
             logger.info("Processing url:" + url);
             Document doc = null;
