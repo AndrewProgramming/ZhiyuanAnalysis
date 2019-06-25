@@ -1,12 +1,16 @@
-package com.andrewprogramming.gaokao.huananligong;
+package com.andrewprogramming.gaokao.controller;
 
 import com.andrewprogramming.gaokao.entity.School;
 import com.andrewprogramming.gaokao.entity.SchoolDetail;
+import com.andrewprogramming.gaokao.service.Service;
 import com.andrewprogramming.gaokao.util.Util;
 import com.google.gson.*;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.apache.http.client.methods.HttpGet;
@@ -17,22 +21,39 @@ import java.util.*;
 
 @RestController
 public class Controller {
+    private static final Logger logger = LogManager.getLogger(Controller.class);
+
+
     private static final int START_YEAR = 2015;
     private static final int END_YEAR = 2018;
-
-    private static Formatter formatter = new Formatter(System.out);
 
 
     private final String USER_AGENT = "Mozilla/5.0";
     private Map<String, String> map = new HashMap<>();
+    @Autowired
+    private Service service;
+
+    private StringBuilder sb = new StringBuilder();
+
+
+    {
+        sb.append("学校名称,");
+        sb.append("年份,");
+        sb.append("专业,");
+        sb.append("最低排名,");
+        sb.append("最低分,");
+        sb.append("最高分,");
+        sb.append("平均分");
+        sb.append("\n");
+    }
 
     // HTTP GET request
     @RequestMapping("/doGet")
-    private void sendGet(String url) throws Exception {
+    private void sendGet(String tempUrl, String schoolName, int year) throws Exception {
 
 
         HttpClient client = new DefaultHttpClient();
-        HttpGet request = new HttpGet(url);
+        HttpGet request = new HttpGet(tempUrl);
 
         // add request header
         request.addHeader("User-Agent", USER_AGENT);
@@ -58,15 +79,22 @@ public class Controller {
                 list.add(item);
             }
 
+
             for (SchoolDetail item : list) {
-                if (item.getSpname().startsWith("软件") || item.getSpname().startsWith("自动化") || item.getSpname().startsWith("计算机") || item.getSpname().startsWith("电子信息类")) {
-//                    System.out.println(item.getSpname() + "    " + "," + "最低排名:" + item.getMin_section() + "," + "最低分:" + item.getMin() + "," + "最高分:" + item.getMax() + "," + "平均分:" + item.getAverage());
-                    System.out.printf("%-15s %-5s %-7s %-7s %-7s %-5s %-5s %-5s %-5s\n", item.getSpname() , "最低排名",item.getMin_section(),"最低分",item.getMin(),"最高分",item.getMax(),"平均分:",item.getAverage());
+                if (item.getSpname().startsWith("软件") || item.getSpname().startsWith("自动化")
+                        || item.getSpname().startsWith("计算机") || item.getSpname().startsWith("电子信息类")) {
+                    sb.append(schoolName + ",");
+                    sb.append(year + ",");
+                    sb.append(item.getSpname() + ",");
+                    sb.append(item.getMin_section() + ",");
+                    sb.append(item.getMin() + ",");
+                    sb.append(item.getMax() + ",");
+                    sb.append(item.getAverage() + "");
+                    sb.append("\n");
                 }
-//            if (isInteger(item.getMin_section(), 10) && Integer.parseInt(item.getMin_section()) >= 9845) {
-//                System.out.println(item.getSpname() + "," + "最低排名：" + item.getMin_section() + "," + "最低分" + item.getMin() + "," + "最高分" + item.getMax());            }
             }
         }
+
 
     }
 
@@ -103,17 +131,18 @@ public class Controller {
     public void doMore() {
         try {
             map = Util.readingMapFromFile("map.txt");
-            System.out.println(map);
-            for (int i = 50; i < 100; i++) {
-                System.out.println("###" + map.get(i + "") + "###");
+
+            for (int i = 1; i < 500; i++) {
+                if (map.get(i + "") == null) continue;
+                logger.info("Processing school " + map.get(i + "") + " index:" + i);
                 for (int j = START_YEAR; j <= END_YEAR; j++) {
-//                    System.out.println("    -year" + j + "-");
-                    formatter.format("%-25s %-5s\n", "year", j);
                     String tempUrl = "https://static-data.eol.cn/www/2.0/schoolspecialindex/" + j + "/" + i + "/44/1/1.json";
-                    sendGet(tempUrl);
+                    sendGet(tempUrl, map.get(i + ""), j);
                 }
                 System.out.println();
             }
+            Util.savingToFile("data.csv", sb);
+
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -123,8 +152,9 @@ public class Controller {
 
     @RequestMapping("/initMap")
     private void initMap() {
-        for (int i = 100; i < 200; i++) {
+        for (int i = 1; i < 2000; i++) {
             String item = "https://static-data.eol.cn/www/school/" + i + "/info.json";
+            logger.info("Processing index:" + i);
             try {
                 initSchoolIdNameMap(item);
             } catch (Exception e) {
@@ -135,6 +165,15 @@ public class Controller {
         Util.savingMapToFile(map, "map.txt");
 
 
+    }
+
+    @RequestMapping("/yggk")
+    public void writeYggkToCSV(){
+        try {
+            service.writeYggkDataToCSV("yggk.csv");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public JsonArray parse(String jsonLine) {

@@ -1,10 +1,50 @@
 package com.andrewprogramming.gaokao.util;
 
+import com.andrewprogramming.gaokao.entity.SchoolDetail;
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import org.apache.http.HttpResponse;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.methods.HttpGet;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+
 import java.io.*;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Util {
+    private final String USER_AGENT = "Mozilla/5.0";
+
+    private static final Logger logger = LogManager.getLogger(Util.class);
+
+
+    public static void savingToFile(String fileName, StringBuilder sb) {
+        PrintWriter printWriter = null;
+        try {
+            FileOutputStream fo = new FileOutputStream(new File(fileName), true);
+            OutputStreamWriter osw = new OutputStreamWriter(fo, "GBK");
+            printWriter = new PrintWriter(osw);
+            printWriter.write(sb.toString());
+            logger.info("Successfully writing data to " + fileName);
+
+
+        } catch (FileNotFoundException e) {
+            logger.error(e.getMessage());
+        } catch (UnsupportedEncodingException e) {
+            e.printStackTrace();
+        } finally {
+            printWriter.close();
+        }
+
+    }
+
+
     public static void savingMapToFile(Map map, String fileName) {
         try {
             FileOutputStream f = new FileOutputStream(fileName, true);
@@ -17,10 +57,12 @@ public class Util {
             o.close();
             f.close();
 
+            logger.info("Successfully write data to " + fileName);
+
         } catch (FileNotFoundException e) {
-            System.out.println("File not found");
+            logger.error("File not found");
         } catch (IOException e) {
-            System.out.println("Error initializing stream");
+            logger.error("Error initializing stream");
         }
     }
 
@@ -62,5 +104,10 @@ public class Util {
             if (Character.digit(s.charAt(i), radix) < 0) return false;
         }
         return true;
+    }
+
+
+    public static Document sendJsoupRequest(String url) throws Exception {
+        return Jsoup.connect(url).get();
     }
 }

@@ -1,19 +1,24 @@
 package com.andrewprogramming.gaokao;
 
+import com.andrewprogramming.gaokao.controller.Controller;
 import com.andrewprogramming.gaokao.util.Util;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.*;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Properties;
+
 
 class F {
-    public static void main( String ... args ) {
-        String [] status =  { "EXECUTING", "READY-SUSPENDED", "CREATED" };
-        int [] pids =  {123, 34, 1231 };
-        int i = 0;
-        for( String s : status ) {
-            System.out.printf("Process PID: %-5d Status : %s%n", pids[i++], s);
-        }
+    private static final Logger logger = LogManager.getLogger(Controller.class);
+
+    private StringBuilder sb = new StringBuilder();
+
+    public static void main(String[] args) throws Exception {
+
     }
 }
+
