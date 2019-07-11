@@ -1,0 +1,120 @@
+[[32mINFO [m] 2019-07-10 17:01:16,400 GaokaoApplication.logStarting() - Starting GaokaoApplication on bogon with PID 35526 (/Users/andrew/Desktop/personal/code/gao-kao/backend/gaokao/target/classes started by andrew in /Users/andrew/Desktop/personal/code/gao-kao/backend/gaokao)
+[[32mINFO [m] 2019-07-10 17:01:16,408 GaokaoApplication.logStartupProfileInfo() - No active profile set, falling back to default profiles: default
+[[32mINFO [m] 2019-07-10 17:01:16,484 DevToolsPropertyDefaultsPostProcessor.logTo() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[[32mINFO [m] 2019-07-10 17:01:16,484 DevToolsPropertyDefaultsPostProcessor.logTo() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[[32mINFO [m] 2019-07-10 17:01:17,235 RepositoryConfigurationDelegate.registerRepositoriesIn() - Bootstrapping Spring Data repositories in DEFAULT mode.
+[[32mINFO [m] 2019-07-10 17:01:17,355 RepositoryConfigurationDelegate.registerRepositoriesIn() - Finished Spring Data repository scanning in 111ms. Found 2 repository interfaces.
+[[32mINFO [m] 2019-07-10 17:01:17,754 PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6d8a6311] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[[32mINFO [m] 2019-07-10 17:01:18,083 TomcatWebServer.initialize() - Tomcat initialized with port(s): 8080 (http)
+[[32mINFO [m] 2019-07-10 17:01:18,098 Http11NioProtocol.log() - Initializing ProtocolHandler ["http-nio-8080"]
+[[32mINFO [m] 2019-07-10 17:01:18,108 StandardService.log() - Starting service [Tomcat]
+[[32mINFO [m] 2019-07-10 17:01:18,109 StandardEngine.log() - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[[32mINFO [m] 2019-07-10 17:01:18,274 [/].log() - Initializing Spring embedded WebApplicationContext
+[[32mINFO [m] 2019-07-10 17:01:18,274 ContextLoader.prepareWebApplicationContext() - Root WebApplicationContext: initialization completed in 1790 ms
+[[32mINFO [m] 2019-07-10 17:01:18,420 HikariDataSource.getConnection() - HikariPool-1 - Starting...
+[[32mINFO [m] 2019-07-10 17:01:18,558 HikariDataSource.getConnection() - HikariPool-1 - Start completed.
+[[32mINFO [m] 2019-07-10 17:01:18,599 LogHelper.logPersistenceUnitInformation() - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[[32mINFO [m] 2019-07-10 17:01:18,664 Version.logVersion() - HHH000412: Hibernate Core {5.3.10.Final}
+[[32mINFO [m] 2019-07-10 17:01:18,666 Environment.<clinit>() - HHH000206: hibernate.properties not found
+[[32mINFO [m] 2019-07-10 17:01:18,799 Version.<clinit>() - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[[32mINFO [m] 2019-07-10 17:01:18,925 Dialect.<init>() - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[[32mINFO [m] 2019-07-10 17:01:19,598 SchemaCreatorImpl.applyImportSources() - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6d69c575'
+[[32mINFO [m] 2019-07-10 17:01:19,600 LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory() - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[[32mINFO [m] 2019-07-10 17:01:19,638 OptionalLiveReloadServer.startServer() - LiveReload server is running on port 35729
+[[32mINFO [m] 2019-07-10 17:01:19,773 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-10 17:01:19,775 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-10 17:01:19,834 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-10 17:01:19,861 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-10 17:01:19,876 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-10 17:01:19,882 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-10 17:01:19,883 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-10 17:01:20,168 ThreadPoolTaskExecutor.initialize() - Initializing ExecutorService 'applicationTaskExecutor'
+[[33mWARN [m] 2019-07-10 17:01:20,242 JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor() - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[[33mWARN [m] 2019-07-10 17:01:20,351 ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists() - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[[32mINFO [m] 2019-07-10 17:01:20,573 Http11NioProtocol.log() - Starting ProtocolHandler ["http-nio-8080"]
+[[32mINFO [m] 2019-07-10 17:01:20,615 TomcatWebServer.start() - Tomcat started on port(s): 8080 (http) with context path ''
+[[32mINFO [m] 2019-07-10 17:01:20,621 GaokaoApplication.logStarted() - Started GaokaoApplication in 4.565 seconds (JVM running for 5.704)
+[[32mINFO [m] 2019-07-10 17:01:22,869 [/].log() - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[[32mINFO [m] 2019-07-10 17:01:22,870 DispatcherServlet.initServletBean() - Initializing Servlet 'dispatcherServlet'
+[[32mINFO [m] 2019-07-10 17:01:22,879 DispatcherServlet.initServletBean() - Completed initialization in 9 ms
+[[32mINFO [m] 2019-07-10 17:01:22,909 Controller.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn/zyk/pub/myd/specAppraisalTop.action?start=0
+[[32mINFO [m] 2019-07-10 17:01:24,076 Controller.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394518&cc=1

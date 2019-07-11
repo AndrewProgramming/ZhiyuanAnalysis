@@ -24,26 +24,6 @@ public class Util {
     private static final Logger logger = LogManager.getLogger(Util.class);
 
 
-    public static void savingToFile(String fileName, StringBuilder sb) {
-        PrintWriter printWriter = null;
-        try {
-            FileOutputStream fo = new FileOutputStream(new File(fileName), true);
-            OutputStreamWriter osw = new OutputStreamWriter(fo, "GBK");
-            printWriter = new PrintWriter(osw);
-            printWriter.write(sb.toString());
-            logger.info("Successfully writing data to " + fileName);
-
-
-        } catch (FileNotFoundException e) {
-            logger.error(e.getMessage());
-        } catch (UnsupportedEncodingException e) {
-            e.printStackTrace();
-        } finally {
-            printWriter.close();
-        }
-
-    }
-
 
     public static void savingMapToFile(Map map, String fileName) {
         try {

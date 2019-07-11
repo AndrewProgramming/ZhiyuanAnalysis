@@ -1,0 +1,38 @@
+[[32mINFO [m] 2019-07-09 17:01:21,775 GaokaoApplication.logStarting() - Starting GaokaoApplication on bogon with PID 30851 (/Users/andrew/Desktop/personal/code/gao-kao/backend/gaokao/target/classes started by andrew in /Users/andrew/Desktop/personal/code/gao-kao/backend/gaokao)
+[[32mINFO [m] 2019-07-09 17:01:21,781 GaokaoApplication.logStartupProfileInfo() - No active profile set, falling back to default profiles: default
+[[32mINFO [m] 2019-07-09 17:01:21,858 DevToolsPropertyDefaultsPostProcessor.logTo() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[[32mINFO [m] 2019-07-09 17:01:21,860 DevToolsPropertyDefaultsPostProcessor.logTo() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[[32mINFO [m] 2019-07-09 17:01:22,434 RepositoryConfigurationDelegate.registerRepositoriesIn() - Bootstrapping Spring Data repositories in DEFAULT mode.
+[[32mINFO [m] 2019-07-09 17:01:22,488 RepositoryConfigurationDelegate.registerRepositoriesIn() - Finished Spring Data repository scanning in 48ms. Found 1 repository interfaces.
+[[32mINFO [m] 2019-07-09 17:01:22,777 PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d602a5ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[[32mINFO [m] 2019-07-09 17:01:23,047 TomcatWebServer.initialize() - Tomcat initialized with port(s): 8080 (http)
+[[32mINFO [m] 2019-07-09 17:01:23,059 Http11NioProtocol.log() - Initializing ProtocolHandler ["http-nio-8080"]
+[[32mINFO [m] 2019-07-09 17:01:23,066 StandardService.log() - Starting service [Tomcat]
+[[32mINFO [m] 2019-07-09 17:01:23,067 StandardEngine.log() - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[[32mINFO [m] 2019-07-09 17:01:23,166 [/].log() - Initializing Spring embedded WebApplicationContext
+[[32mINFO [m] 2019-07-09 17:01:23,166 ContextLoader.prepareWebApplicationContext() - Root WebApplicationContext: initialization completed in 1306 ms
+[[32mINFO [m] 2019-07-09 17:01:23,351 HikariDataSource.getConnection() - HikariPool-1 - Starting...
+[[1;31mERROR[m] 2019-07-09 17:01:24,444 HikariPool.throwPoolInitializationException() - HikariPool-1 - Exception during pool initialization.
+545[[33mWARN [m] 2019-07-09 17:01:24,447 DatabaseLookup.getDatabase() - Unable to determine jdbc url from datasource
+328[[32mINFO [m] 2019-07-09 17:01:24,476 LogHelper.logPersistenceUnitInformation() - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[[32mINFO [m] 2019-07-09 17:01:24,527 Version.logVersion() - HHH000412: Hibernate Core {5.3.10.Final}
+[[32mINFO [m] 2019-07-09 17:01:24,536 Environment.<clinit>() - HHH000206: hibernate.properties not found
+[[32mINFO [m] 2019-07-09 17:01:24,642 Version.<clinit>() - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[[32mINFO [m] 2019-07-09 17:01:24,753 HikariDataSource.getConnection() - HikariPool-1 - Starting...
+[[1;31mERROR[m] 2019-07-09 17:01:25,762 HikariPool.throwPoolInitializationException() - HikariPool-1 - Exception during pool initialization.
+545[[33mWARN [m] 2019-07-09 17:01:25,763 JdbcEnvironmentInitiator.initiateService() - HHH000342: Could not obtain connection to query metadata : Unable to load authentication plugin 'caching_sha2_password'.
+[[32mINFO [m] 2019-07-09 17:01:25,774 Dialect.<init>() - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[[32mINFO [m] 2019-07-09 17:01:25,790 LobCreatorBuilderImpl.makeLobCreatorBuilder() - HHH000422: Disabling contextual LOB creation as connection was null
+[[32mINFO [m] 2019-07-09 17:01:26,216 HikariDataSource.getConnection() - HikariPool-1 - Starting...
+[[1;31mERROR[m] 2019-07-09 17:01:27,224 HikariPool.throwPoolInitializationException() - HikariPool-1 - Exception during pool initialization.
+545[[33mWARN [m] 2019-07-09 17:01:27,225 SqlExceptionHelper.logExceptions() - SQL Error: 0, SQLState: S1009
+[[1;31mERROR[m] 2019-07-09 17:01:27,225 SqlExceptionHelper.logExceptions() - Unable to load authentication plugin 'caching_sha2_password'.
+[[33mWARN [m] 2019-07-09 17:01:27,231 AnnotationConfigServletWebServerApplicationContext.refresh() - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+[[32mINFO [m] 2019-07-09 17:01:27,233 StandardService.log() - Stopping service [Tomcat]
+[[32mINFO [m] 2019-07-09 17:01:27,243 ConditionEvaluationReportLoggingListener.logMessage() - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[[1;31mERROR[m] 2019-07-09 17:01:27,248 SpringApplication.reportFailure() - Application run failed
+1778

@@ -2,7 +2,7 @@
 <Configuration status="INFO">
     <Properties>
         <Property name="logPath">./</Property>
-        <Property name="rollingFileName">cucumber</Property>
+        <Property name="rollingFileName">gao_kao_log</Property>
     </Properties>
     <Appenders>
         <Console name="console" target="SYSTEM_OUT">
