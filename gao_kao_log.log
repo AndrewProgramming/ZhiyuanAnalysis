@@ -1,28 +1,28 @@
-[[32mINFO [m] 2019-07-11 17:00:41,803 GaokaoApplication.logStarting() - Starting GaokaoApplication on andrews-MacBook-Pro.local with PID 40387 (/Users/andrew/Desktop/personal/code/gao-kao/backend/gaokao/target/classes started by andrew in /Users/andrew/Desktop/personal/code/gao-kao/backend/gaokao)
-[[32mINFO [m] 2019-07-11 17:00:41,809 GaokaoApplication.logStartupProfileInfo() - No active profile set, falling back to default profiles: default
-[[32mINFO [m] 2019-07-11 17:00:41,883 DevToolsPropertyDefaultsPostProcessor.logTo() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-[[32mINFO [m] 2019-07-11 17:00:41,883 DevToolsPropertyDefaultsPostProcessor.logTo() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-[[32mINFO [m] 2019-07-11 17:00:42,858 RepositoryConfigurationDelegate.registerRepositoriesIn() - Bootstrapping Spring Data repositories in DEFAULT mode.
-[[32mINFO [m] 2019-07-11 17:00:42,941 RepositoryConfigurationDelegate.registerRepositoriesIn() - Finished Spring Data repository scanning in 74ms. Found 3 repository interfaces.
-[[32mINFO [m] 2019-07-11 17:00:43,290 PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b63c378] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[[32mINFO [m] 2019-07-11 17:00:43,652 TomcatWebServer.initialize() - Tomcat initialized with port(s): 8080 (http)
-[[32mINFO [m] 2019-07-11 17:00:43,669 Http11NioProtocol.log() - Initializing ProtocolHandler ["http-nio-8080"]
-[[32mINFO [m] 2019-07-11 17:00:43,754 StandardService.log() - Starting service [Tomcat]
-[[32mINFO [m] 2019-07-11 17:00:43,755 StandardEngine.log() - Starting Servlet engine: [Apache Tomcat/9.0.21]
-[[32mINFO [m] 2019-07-11 17:00:43,856 [/].log() - Initializing Spring embedded WebApplicationContext
-[[32mINFO [m] 2019-07-11 17:00:43,856 ContextLoader.prepareWebApplicationContext() - Root WebApplicationContext: initialization completed in 1973 ms
-[[32mINFO [m] 2019-07-11 17:00:44,035 HikariDataSource.getConnection() - HikariPool-1 - Starting...
-[[32mINFO [m] 2019-07-11 17:00:44,196 HikariDataSource.getConnection() - HikariPool-1 - Start completed.
-[[32mINFO [m] 2019-07-11 17:00:44,242 LogHelper.logPersistenceUnitInformation() - HHH000204: Processing PersistenceUnitInfo [
+[[32mINFO [m] 2019-07-12 12:47:57,451 GaokaoApplication.logStarting() - Starting GaokaoApplication on bogon with PID 42706 (/Users/andrew/Desktop/personal/code/gao-kao/backend/gaokao/target/classes started by andrew in /Users/andrew/Desktop/personal/code/gao-kao/backend/gaokao)
+[[32mINFO [m] 2019-07-12 12:47:57,458 GaokaoApplication.logStartupProfileInfo() - No active profile set, falling back to default profiles: default
+[[32mINFO [m] 2019-07-12 12:47:57,612 DevToolsPropertyDefaultsPostProcessor.logTo() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[[32mINFO [m] 2019-07-12 12:47:57,612 DevToolsPropertyDefaultsPostProcessor.logTo() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[[32mINFO [m] 2019-07-12 12:47:58,591 RepositoryConfigurationDelegate.registerRepositoriesIn() - Bootstrapping Spring Data repositories in DEFAULT mode.
+[[32mINFO [m] 2019-07-12 12:47:58,668 RepositoryConfigurationDelegate.registerRepositoriesIn() - Finished Spring Data repository scanning in 69ms. Found 3 repository interfaces.
+[[32mINFO [m] 2019-07-12 12:47:59,047 PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cbf864f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[[32mINFO [m] 2019-07-12 12:47:59,478 TomcatWebServer.initialize() - Tomcat initialized with port(s): 8080 (http)
+[[32mINFO [m] 2019-07-12 12:47:59,493 Http11NioProtocol.log() - Initializing ProtocolHandler ["http-nio-8080"]
+[[32mINFO [m] 2019-07-12 12:47:59,502 StandardService.log() - Starting service [Tomcat]
+[[32mINFO [m] 2019-07-12 12:47:59,502 StandardEngine.log() - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[[32mINFO [m] 2019-07-12 12:47:59,593 [/].log() - Initializing Spring embedded WebApplicationContext
+[[32mINFO [m] 2019-07-12 12:47:59,593 ContextLoader.prepareWebApplicationContext() - Root WebApplicationContext: initialization completed in 1980 ms
+[[32mINFO [m] 2019-07-12 12:47:59,759 HikariDataSource.getConnection() - HikariPool-1 - Starting...
+[[32mINFO [m] 2019-07-12 12:47:59,914 HikariDataSource.getConnection() - HikariPool-1 - Start completed.
+[[32mINFO [m] 2019-07-12 12:47:59,963 LogHelper.logPersistenceUnitInformation() - HHH000204: Processing PersistenceUnitInfo [
 	name: default
 	...]
-[[32mINFO [m] 2019-07-11 17:00:44,308 Version.logVersion() - HHH000412: Hibernate Core {5.3.10.Final}
-[[32mINFO [m] 2019-07-11 17:00:44,310 Environment.<clinit>() - HHH000206: hibernate.properties not found
-[[32mINFO [m] 2019-07-11 17:00:44,464 Version.<clinit>() - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
-[[32mINFO [m] 2019-07-11 17:00:44,597 Dialect.<init>() - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-[[32mINFO [m] 2019-07-11 17:00:45,279 LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory() - Initialized JPA EntityManagerFactory for persistence unit 'default'
-[[32mINFO [m] 2019-07-11 17:00:45,352 OptionalLiveReloadServer.startServer() - LiveReload server is running on port 35729
-[[32mINFO [m] 2019-07-11 17:00:45,494 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:00,054 Version.logVersion() - HHH000412: Hibernate Core {5.3.10.Final}
+[[32mINFO [m] 2019-07-12 12:48:00,056 Environment.<clinit>() - HHH000206: hibernate.properties not found
+[[32mINFO [m] 2019-07-12 12:48:00,194 Version.<clinit>() - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[[32mINFO [m] 2019-07-12 12:48:00,328 Dialect.<init>() - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[[32mINFO [m] 2019-07-12 12:48:00,978 LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory() - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[[32mINFO [m] 2019-07-12 12:48:01,026 OptionalLiveReloadServer.startServer() - LiveReload server is running on port 35729
+[[32mINFO [m] 2019-07-12 12:48:01,184 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -34,7 +34,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,496 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,186 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -46,7 +46,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,547 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,246 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -58,7 +58,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,575 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,280 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -70,7 +70,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,595 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,305 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -82,7 +82,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,597 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,307 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -94,7 +94,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,644 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,363 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -106,7 +106,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,645 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,364 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -118,7 +118,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,663 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,379 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -130,7 +130,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,671 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,386 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -142,7 +142,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,672 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,388 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -154,7 +154,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,680 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,400 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -166,7 +166,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,686 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,443 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -178,7 +178,7 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[32mINFO [m] 2019-07-11 17:00:45,687 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+[[32mINFO [m] 2019-07-12 12:48:01,445 StatisticalLoggingSessionEventListener.end() - Session Metrics {
     0 nanoseconds spent acquiring 0 JDBC connections;
     0 nanoseconds spent releasing 0 JDBC connections;
     0 nanoseconds spent preparing 0 JDBC statements;
@@ -190,29 +190,520 @@
     0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }
-[[33mWARN [m] 2019-07-11 17:00:45,948 JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor() - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-[[32mINFO [m] 2019-07-11 17:00:46,074 PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
-[[32mINFO [m] 2019-07-11 17:00:46,229 ThreadPoolTaskExecutor.initialize() - Initializing ExecutorService 'applicationTaskExecutor'
-[[33mWARN [m] 2019-07-11 17:00:46,308 ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists() - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
-[[32mINFO [m] 2019-07-11 17:00:46,488 DocumentationPluginsBootstrapper.start() - Context refreshed
-[[32mINFO [m] 2019-07-11 17:00:46,707 DocumentationPluginsBootstrapper.start() - Found 1 custom documentation plugin(s)
-[[32mINFO [m] 2019-07-11 17:00:46,746 ApiListingReferenceScanner.scan() - Scanning for api listing references
-[[32mINFO [m] 2019-07-11 17:00:46,951 Http11NioProtocol.log() - Starting ProtocolHandler ["http-nio-8080"]
-[[32mINFO [m] 2019-07-11 17:00:46,991 TomcatWebServer.start() - Tomcat started on port(s): 8080 (http) with context path ''
-[[32mINFO [m] 2019-07-11 17:00:46,995 GaokaoApplication.logStarted() - Started GaokaoApplication in 5.497 seconds (JVM running for 6.637)
-[[32mINFO [m] 2019-07-11 17:01:21,223 [/].log() - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[[32mINFO [m] 2019-07-11 17:01:21,223 DispatcherServlet.initServletBean() - Initializing Servlet 'dispatcherServlet'
-[[32mINFO [m] 2019-07-11 17:01:21,234 DispatcherServlet.initServletBean() - Completed initialization in 10 ms
-[[32mINFO [m] 2019-07-11 17:01:30,665 QueryTranslatorFactoryInitiator.initiateService() - HHH000397: Using ASTQueryTranslatorFactory
-[[32mINFO [m] 2019-07-11 17:01:30,839 StatisticalLoggingSessionEventListener.end() - Session Metrics {
-    1178151 nanoseconds spent acquiring 1 JDBC connections;
-    0 nanoseconds spent releasing 0 JDBC connections;
-    5300228 nanoseconds spent preparing 1 JDBC statements;
-    5418087 nanoseconds spent executing 1 JDBC statements;
-    0 nanoseconds spent executing 0 JDBC batches;
+[[33mWARN [m] 2019-07-12 12:48:01,705 JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor() - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[[32mINFO [m] 2019-07-12 12:48:01,835 PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[[32mINFO [m] 2019-07-12 12:48:01,977 ThreadPoolTaskExecutor.initialize() - Initializing ExecutorService 'applicationTaskExecutor'
+[[33mWARN [m] 2019-07-12 12:48:02,061 ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists() - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[[32mINFO [m] 2019-07-12 12:48:02,469 DocumentationPluginsBootstrapper.start() - Context refreshed
+[[32mINFO [m] 2019-07-12 12:48:02,488 DocumentationPluginsBootstrapper.start() - Found 1 custom documentation plugin(s)
+[[32mINFO [m] 2019-07-12 12:48:02,523 ApiListingReferenceScanner.scan() - Scanning for api listing references
+[[32mINFO [m] 2019-07-12 12:48:02,738 Http11NioProtocol.log() - Starting ProtocolHandler ["http-nio-8080"]
+[[32mINFO [m] 2019-07-12 12:48:02,777 TomcatWebServer.start() - Tomcat started on port(s): 8080 (http) with context path ''
+[[32mINFO [m] 2019-07-12 12:48:02,781 GaokaoApplication.logStarted() - Started GaokaoApplication in 5.7 seconds (JVM running for 7.016)
+[[32mINFO [m] 2019-07-12 12:48:05,670 [/].log() - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[[32mINFO [m] 2019-07-12 12:48:05,671 DispatcherServlet.initServletBean() - Initializing Servlet 'dispatcherServlet'
+[[32mINFO [m] 2019-07-12 12:48:05,680 DispatcherServlet.initServletBean() - Completed initialization in 9 ms
+[[32mINFO [m] 2019-07-12 12:48:05,712 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn/zyk/pub/myd/specAppraisalTop.action?start=0
+[[32mINFO [m] 2019-07-12 12:48:06,765 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394518&cc=1
+[[32mINFO [m] 2019-07-12 12:48:07,027 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394522&cc=1
+[[32mINFO [m] 2019-07-12 12:48:07,173 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394526&cc=1
+[[32mINFO [m] 2019-07-12 12:48:07,365 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394530&cc=1
+[[32mINFO [m] 2019-07-12 12:48:07,612 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394530&cc=2
+[[32mINFO [m] 2019-07-12 12:48:07,696 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394534&cc=1
+[[32mINFO [m] 2019-07-12 12:48:07,802 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394538&cc=1
+[[32mINFO [m] 2019-07-12 12:48:08,011 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394542&cc=1
+[[32mINFO [m] 2019-07-12 12:48:08,222 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394546&cc=1
+[[32mINFO [m] 2019-07-12 12:48:08,439 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394546&cc=2
+[[32mINFO [m] 2019-07-12 12:48:08,505 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394550&cc=1
+[[32mINFO [m] 2019-07-12 12:48:08,630 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394554&cc=1
+[[32mINFO [m] 2019-07-12 12:48:08,789 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394558&cc=1
+[[32mINFO [m] 2019-07-12 12:48:08,930 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394562&cc=1
+[[32mINFO [m] 2019-07-12 12:48:09,002 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394566&cc=1
+[[32mINFO [m] 2019-07-12 12:48:09,221 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394570&cc=1
+[[32mINFO [m] 2019-07-12 12:48:09,319 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394574&cc=1
+[[32mINFO [m] 2019-07-12 12:48:09,420 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394578&cc=1
+[[32mINFO [m] 2019-07-12 12:48:09,530 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394582&cc=1
+[[32mINFO [m] 2019-07-12 12:48:09,723 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394586&cc=1
+[[32mINFO [m] 2019-07-12 12:48:09,872 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394586&cc=2
+[[32mINFO [m] 2019-07-12 12:48:09,960 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394590&cc=1
+[[32mINFO [m] 2019-07-12 12:48:10,166 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73393790&cc=1
+[[32mINFO [m] 2019-07-12 12:48:10,225 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73393790&cc=2
+[[32mINFO [m] 2019-07-12 12:48:10,290 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn/zyk/pub/myd/specAppraisalTop.action?start=20
+[[32mINFO [m] 2019-07-12 12:48:10,452 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394594&cc=1
+[[32mINFO [m] 2019-07-12 12:48:10,517 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394594&cc=2
+[[32mINFO [m] 2019-07-12 12:48:10,578 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394598&cc=1
+[[32mINFO [m] 2019-07-12 12:48:10,658 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394598&cc=2
+[[32mINFO [m] 2019-07-12 12:48:10,724 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394602&cc=1
+[[32mINFO [m] 2019-07-12 12:48:10,919 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394606&cc=1
+[[32mINFO [m] 2019-07-12 12:48:11,079 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394610&cc=1
+[[32mINFO [m] 2019-07-12 12:48:11,169 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394614&cc=1
+[[32mINFO [m] 2019-07-12 12:48:11,285 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394618&cc=1
+[[32mINFO [m] 2019-07-12 12:48:11,377 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394622&cc=1
+[[32mINFO [m] 2019-07-12 12:48:11,525 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394626&cc=1
+[[32mINFO [m] 2019-07-12 12:48:11,673 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394626&cc=2
+[[32mINFO [m] 2019-07-12 12:48:11,739 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394630&cc=1
+[[32mINFO [m] 2019-07-12 12:48:11,865 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394634&cc=1
+[[32mINFO [m] 2019-07-12 12:48:12,014 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394638&cc=1
+[[32mINFO [m] 2019-07-12 12:48:12,120 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394642&cc=1
+[[32mINFO [m] 2019-07-12 12:48:12,233 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394646&cc=1
+[[32mINFO [m] 2019-07-12 12:48:12,309 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394650&cc=1
+[[32mINFO [m] 2019-07-12 12:48:12,404 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394042&cc=1
+[[32mINFO [m] 2019-07-12 12:48:12,488 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394654&cc=1
+[[32mINFO [m] 2019-07-12 12:48:12,594 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394158&cc=1
+[[32mINFO [m] 2019-07-12 12:48:12,661 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394162&cc=1
+[[32mINFO [m] 2019-07-12 12:48:12,729 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394166&cc=1
+[[32mINFO [m] 2019-07-12 12:48:12,807 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn/zyk/pub/myd/specAppraisalTop.action?start=40
+[[32mINFO [m] 2019-07-12 12:48:12,982 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394658&cc=1
+[[32mINFO [m] 2019-07-12 12:48:13,045 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394658&cc=2
+[[32mINFO [m] 2019-07-12 12:48:13,103 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394170&cc=1
+[[32mINFO [m] 2019-07-12 12:48:13,170 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394662&cc=1
+[[32mINFO [m] 2019-07-12 12:48:13,234 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394174&cc=1
+[[32mINFO [m] 2019-07-12 12:48:13,293 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394666&cc=1
+[[32mINFO [m] 2019-07-12 12:48:13,525 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394671&cc=1
+[[32mINFO [m] 2019-07-12 12:48:13,635 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394675&cc=1
+[[32mINFO [m] 2019-07-12 12:48:13,745 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394679&cc=1
+[[32mINFO [m] 2019-07-12 12:48:14,025 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394683&cc=1
+[[32mINFO [m] 2019-07-12 12:48:14,364 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394683&cc=2
+[[32mINFO [m] 2019-07-12 12:48:14,452 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394687&cc=1
+[[32mINFO [m] 2019-07-12 12:48:14,706 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394691&cc=1
+[[32mINFO [m] 2019-07-12 12:48:14,971 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394691&cc=2
+[[32mINFO [m] 2019-07-12 12:48:15,058 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394695&cc=1
+[[32mINFO [m] 2019-07-12 12:48:15,297 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394695&cc=2
+[[32mINFO [m] 2019-07-12 12:48:15,386 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394699&cc=1
+[[32mINFO [m] 2019-07-12 12:48:15,649 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394703&cc=1
+[[32mINFO [m] 2019-07-12 12:48:15,816 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394703&cc=2
+[[32mINFO [m] 2019-07-12 12:48:15,916 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394707&cc=1
+[[32mINFO [m] 2019-07-12 12:48:16,019 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394707&cc=2
+[[32mINFO [m] 2019-07-12 12:48:16,075 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394711&cc=1
+[[32mINFO [m] 2019-07-12 12:48:16,185 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394715&cc=1
+[[32mINFO [m] 2019-07-12 12:48:16,420 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394715&cc=2
+[[32mINFO [m] 2019-07-12 12:48:16,491 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394719&cc=1
+[[32mINFO [m] 2019-07-12 12:48:16,683 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394719&cc=2
+[[32mINFO [m] 2019-07-12 12:48:16,791 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394723&cc=1
+[[32mINFO [m] 2019-07-12 12:48:16,936 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394727&cc=1
+[[32mINFO [m] 2019-07-12 12:48:17,174 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn/zyk/pub/myd/specAppraisalTop.action?start=60
+[[32mINFO [m] 2019-07-12 12:48:17,381 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394731&cc=1
+[[32mINFO [m] 2019-07-12 12:48:17,571 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394735&cc=1
+[[32mINFO [m] 2019-07-12 12:48:17,673 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394735&cc=2
+[[32mINFO [m] 2019-07-12 12:48:17,738 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394214&cc=1
+[[32mINFO [m] 2019-07-12 12:48:17,802 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394739&cc=1
+[[32mINFO [m] 2019-07-12 12:48:17,887 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394743&cc=1
+[[32mINFO [m] 2019-07-12 12:48:18,226 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394743&cc=2
+[[32mINFO [m] 2019-07-12 12:48:18,442 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394747&cc=1
+[[32mINFO [m] 2019-07-12 12:48:18,703 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394747&cc=2
+[[32mINFO [m] 2019-07-12 12:48:18,881 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394751&cc=1
+[[32mINFO [m] 2019-07-12 12:48:19,129 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394751&cc=2
+[[32mINFO [m] 2019-07-12 12:48:19,254 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394755&cc=1
+[[32mINFO [m] 2019-07-12 12:48:19,483 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394755&cc=2
+[[32mINFO [m] 2019-07-12 12:48:19,586 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394759&cc=1
+[[32mINFO [m] 2019-07-12 12:48:19,750 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394763&cc=1
+[[32mINFO [m] 2019-07-12 12:48:19,982 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394763&cc=2
+[[32mINFO [m] 2019-07-12 12:48:20,080 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394768&cc=1
+[[32mINFO [m] 2019-07-12 12:48:20,349 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394768&cc=2
+[[32mINFO [m] 2019-07-12 12:48:20,455 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394772&cc=1
+[[32mINFO [m] 2019-07-12 12:48:20,778 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394772&cc=2
+[[32mINFO [m] 2019-07-12 12:48:20,923 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394776&cc=1
+[[32mINFO [m] 2019-07-12 12:48:21,058 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394776&cc=2
+[[32mINFO [m] 2019-07-12 12:48:21,143 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394780&cc=2
+[[32mINFO [m] 2019-07-12 12:48:21,302 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394784&cc=1
+[[32mINFO [m] 2019-07-12 12:48:21,598 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394784&cc=2
+[[32mINFO [m] 2019-07-12 12:48:21,826 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394788&cc=1
+[[32mINFO [m] 2019-07-12 12:48:21,937 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394788&cc=2
+[[32mINFO [m] 2019-07-12 12:48:22,010 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394796&cc=1
+[[32mINFO [m] 2019-07-12 12:48:22,246 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394796&cc=2
+[[32mINFO [m] 2019-07-12 12:48:22,436 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394800&cc=1
+[[32mINFO [m] 2019-07-12 12:48:22,519 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394800&cc=2
+[[32mINFO [m] 2019-07-12 12:48:22,594 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394804&cc=1
+[[32mINFO [m] 2019-07-12 12:48:22,865 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394804&cc=2
+[[32mINFO [m] 2019-07-12 12:48:23,015 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394808&cc=1
+[[32mINFO [m] 2019-07-12 12:48:23,144 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394808&cc=2
+[[32mINFO [m] 2019-07-12 12:48:23,302 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn/zyk/pub/myd/specAppraisalTop.action?start=80
+[[32mINFO [m] 2019-07-12 12:48:23,520 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394812&cc=1
+[[32mINFO [m] 2019-07-12 12:48:23,643 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394812&cc=2
+[[32mINFO [m] 2019-07-12 12:48:23,824 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394816&cc=1
+[[32mINFO [m] 2019-07-12 12:48:24,048 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394816&cc=2
+[[32mINFO [m] 2019-07-12 12:48:24,186 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394820&cc=1
+[[32mINFO [m] 2019-07-12 12:48:24,392 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394820&cc=2
+[[32mINFO [m] 2019-07-12 12:48:24,581 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394824&cc=1
+[[32mINFO [m] 2019-07-12 12:48:24,740 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394824&cc=2
+[[32mINFO [m] 2019-07-12 12:48:24,862 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394828&cc=1
+[[32mINFO [m] 2019-07-12 12:48:25,104 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394828&cc=2
+[[32mINFO [m] 2019-07-12 12:48:25,279 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394832&cc=1
+[[32mINFO [m] 2019-07-12 12:48:25,444 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394832&cc=2
+[[32mINFO [m] 2019-07-12 12:48:25,564 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394836&cc=1
+[[32mINFO [m] 2019-07-12 12:48:25,731 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394836&cc=2
+[[32mINFO [m] 2019-07-12 12:48:25,865 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394840&cc=1
+[[32mINFO [m] 2019-07-12 12:48:25,963 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394840&cc=2
+[[32mINFO [m] 2019-07-12 12:48:26,151 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394844&cc=1
+[[32mINFO [m] 2019-07-12 12:48:26,353 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394844&cc=2
+[[32mINFO [m] 2019-07-12 12:48:26,439 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394848&cc=1
+[[32mINFO [m] 2019-07-12 12:48:26,717 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394848&cc=2
+[[32mINFO [m] 2019-07-12 12:48:26,813 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394852&cc=1
+[[32mINFO [m] 2019-07-12 12:48:27,053 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394852&cc=2
+[[32mINFO [m] 2019-07-12 12:48:27,172 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394856&cc=1
+[[32mINFO [m] 2019-07-12 12:48:27,456 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394856&cc=2
+[[32mINFO [m] 2019-07-12 12:48:27,718 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394860&cc=1
+[[32mINFO [m] 2019-07-12 12:48:27,995 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394860&cc=2
+[[32mINFO [m] 2019-07-12 12:48:28,130 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394864&cc=1
+[[32mINFO [m] 2019-07-12 12:48:28,335 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394868&cc=1
+[[32mINFO [m] 2019-07-12 12:48:28,442 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394868&cc=2
+[[32mINFO [m] 2019-07-12 12:48:28,537 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394872&cc=1
+[[32mINFO [m] 2019-07-12 12:48:28,630 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394872&cc=2
+[[32mINFO [m] 2019-07-12 12:48:28,695 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394876&cc=1
+[[32mINFO [m] 2019-07-12 12:48:28,889 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394876&cc=2
+[[32mINFO [m] 2019-07-12 12:48:28,981 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394880&cc=1
+[[32mINFO [m] 2019-07-12 12:48:29,175 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394880&cc=2
+[[32mINFO [m] 2019-07-12 12:48:29,247 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394884&cc=1
+[[32mINFO [m] 2019-07-12 12:48:29,440 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394884&cc=2
+[[32mINFO [m] 2019-07-12 12:48:29,574 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394888&cc=1
+[[32mINFO [m] 2019-07-12 12:48:29,735 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394888&cc=2
+[[32mINFO [m] 2019-07-12 12:48:29,833 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn/zyk/pub/myd/specAppraisalTop.action?start=100
+[[32mINFO [m] 2019-07-12 12:48:30,075 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394892&cc=1
+[[32mINFO [m] 2019-07-12 12:48:30,216 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394892&cc=2
+[[32mINFO [m] 2019-07-12 12:48:30,295 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394896&cc=1
+[[32mINFO [m] 2019-07-12 12:48:30,479 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394896&cc=2
+[[32mINFO [m] 2019-07-12 12:48:30,569 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394900&cc=1
+[[32mINFO [m] 2019-07-12 12:48:30,742 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394900&cc=2
+[[32mINFO [m] 2019-07-12 12:48:30,901 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394904&cc=1
+[[32mINFO [m] 2019-07-12 12:48:31,127 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394904&cc=2
+[[32mINFO [m] 2019-07-12 12:48:31,195 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394908&cc=1
+[[32mINFO [m] 2019-07-12 12:48:31,454 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394908&cc=2
+[[32mINFO [m] 2019-07-12 12:48:31,612 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394912&cc=1
+[[32mINFO [m] 2019-07-12 12:48:31,964 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394912&cc=2
+[[32mINFO [m] 2019-07-12 12:48:32,158 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394916&cc=1
+[[32mINFO [m] 2019-07-12 12:48:32,407 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394916&cc=2
+[[32mINFO [m] 2019-07-12 12:48:32,560 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394920&cc=1
+[[32mINFO [m] 2019-07-12 12:48:32,860 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394920&cc=2
+[[32mINFO [m] 2019-07-12 12:48:33,070 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394924&cc=1
+[[32mINFO [m] 2019-07-12 12:48:33,191 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394924&cc=2
+[[32mINFO [m] 2019-07-12 12:48:33,273 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394928&cc=1
+[[32mINFO [m] 2019-07-12 12:48:33,501 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394928&cc=2
+[[32mINFO [m] 2019-07-12 12:48:33,621 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394932&cc=1
+[[32mINFO [m] 2019-07-12 12:48:33,859 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394932&cc=2
+[[32mINFO [m] 2019-07-12 12:48:33,938 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394936&cc=1
+[[32mINFO [m] 2019-07-12 12:48:34,129 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394936&cc=2
+[[32mINFO [m] 2019-07-12 12:48:34,247 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394940&cc=1
+[[32mINFO [m] 2019-07-12 12:48:34,456 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394940&cc=2
+[[32mINFO [m] 2019-07-12 12:48:34,584 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394944&cc=1
+[[32mINFO [m] 2019-07-12 12:48:34,819 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394948&cc=1
+[[32mINFO [m] 2019-07-12 12:48:35,070 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394952&cc=1
+[[32mINFO [m] 2019-07-12 12:48:35,332 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394952&cc=2
+[[32mINFO [m] 2019-07-12 12:48:35,417 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394956&cc=1
+[[32mINFO [m] 2019-07-12 12:48:35,629 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394956&cc=2
+[[32mINFO [m] 2019-07-12 12:48:35,703 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394960&cc=1
+[[32mINFO [m] 2019-07-12 12:48:35,914 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394960&cc=2
+[[32mINFO [m] 2019-07-12 12:48:36,020 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394964&cc=1
+[[32mINFO [m] 2019-07-12 12:48:36,287 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394964&cc=2
+[[32mINFO [m] 2019-07-12 12:48:36,446 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394968&cc=1
+[[32mINFO [m] 2019-07-12 12:48:36,656 GrabYggkService.gragSchoolMajorInfo() - Processing url:https://gaokao.chsi.com.cn//zyk/pub/myd/specAppraisalTopMore.action?schId=73394968&cc=2
+[[32mINFO [m] 2019-07-12 12:48:36,774 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:1
+[[32mINFO [m] 2019-07-12 12:48:36,860 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:36,860 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:2
+[[32mINFO [m] 2019-07-12 12:48:36,887 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:36,888 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:3
+[[32mINFO [m] 2019-07-12 12:48:36,903 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:36,903 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:4
+[[32mINFO [m] 2019-07-12 12:48:36,916 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:36,916 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:5
+[[32mINFO [m] 2019-07-12 12:48:36,929 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:36,930 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:6
+[[32mINFO [m] 2019-07-12 12:48:36,944 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:36,945 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:7
+[[32mINFO [m] 2019-07-12 12:48:36,960 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:36,960 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:8
+[[32mINFO [m] 2019-07-12 12:48:36,975 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:36,975 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:9
+[[32mINFO [m] 2019-07-12 12:48:36,988 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:36,988 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:10
+[[32mINFO [m] 2019-07-12 12:48:37,002 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,002 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:11
+[[32mINFO [m] 2019-07-12 12:48:37,015 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,015 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:12
+[[32mINFO [m] 2019-07-12 12:48:37,027 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,028 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:13
+[[32mINFO [m] 2019-07-12 12:48:37,041 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,041 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:14
+[[32mINFO [m] 2019-07-12 12:48:37,054 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,054 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:15
+[[32mINFO [m] 2019-07-12 12:48:37,067 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,067 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:16
+[[32mINFO [m] 2019-07-12 12:48:37,082 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,083 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:17
+[[32mINFO [m] 2019-07-12 12:48:37,098 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,098 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:18
+[[32mINFO [m] 2019-07-12 12:48:37,117 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,117 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:19
+[[32mINFO [m] 2019-07-12 12:48:37,132 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,133 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:20
+[[32mINFO [m] 2019-07-12 12:48:37,146 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,146 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:21
+[[32mINFO [m] 2019-07-12 12:48:37,161 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,161 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:22
+[[32mINFO [m] 2019-07-12 12:48:37,176 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,176 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:23
+[[32mINFO [m] 2019-07-12 12:48:37,191 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,191 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:24
+[[32mINFO [m] 2019-07-12 12:48:37,202 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,203 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:25
+[[32mINFO [m] 2019-07-12 12:48:37,215 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,215 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:26
+[[32mINFO [m] 2019-07-12 12:48:37,226 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,226 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:27
+[[32mINFO [m] 2019-07-12 12:48:37,238 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,238 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:28
+[[32mINFO [m] 2019-07-12 12:48:37,252 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,252 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:29
+[[32mINFO [m] 2019-07-12 12:48:37,265 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,266 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:30
+[[32mINFO [m] 2019-07-12 12:48:37,280 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,281 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:31
+[[32mINFO [m] 2019-07-12 12:48:37,291 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,291 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:32
+[[32mINFO [m] 2019-07-12 12:48:37,305 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,306 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:33
+[[32mINFO [m] 2019-07-12 12:48:37,322 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,322 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:34
+[[32mINFO [m] 2019-07-12 12:48:37,336 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,336 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:35
+[[32mINFO [m] 2019-07-12 12:48:37,348 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,349 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:36
+[[32mINFO [m] 2019-07-12 12:48:37,364 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,364 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:37
+[[32mINFO [m] 2019-07-12 12:48:37,381 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,381 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:38
+[[32mINFO [m] 2019-07-12 12:48:37,393 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,393 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:39
+[[32mINFO [m] 2019-07-12 12:48:37,404 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,405 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:40
+[[32mINFO [m] 2019-07-12 12:48:37,416 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,417 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:41
+[[32mINFO [m] 2019-07-12 12:48:37,428 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,428 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:42
+[[32mINFO [m] 2019-07-12 12:48:37,442 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,442 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:43
+[[32mINFO [m] 2019-07-12 12:48:37,454 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,454 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:44
+[[32mINFO [m] 2019-07-12 12:48:37,468 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,468 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:45
+[[32mINFO [m] 2019-07-12 12:48:37,484 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,484 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:46
+[[32mINFO [m] 2019-07-12 12:48:37,496 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,496 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:47
+[[32mINFO [m] 2019-07-12 12:48:37,508 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,509 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:48
+[[32mINFO [m] 2019-07-12 12:48:37,524 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,524 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:49
+[[32mINFO [m] 2019-07-12 12:48:37,537 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,537 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:50
+[[32mINFO [m] 2019-07-12 12:48:37,552 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,553 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:51
+[[32mINFO [m] 2019-07-12 12:48:37,565 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,566 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:52
+[[32mINFO [m] 2019-07-12 12:48:37,576 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,576 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:53
+[[32mINFO [m] 2019-07-12 12:48:37,591 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,591 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:54
+[[32mINFO [m] 2019-07-12 12:48:37,602 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,602 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:55
+[[32mINFO [m] 2019-07-12 12:48:37,613 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,613 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:56
+[[32mINFO [m] 2019-07-12 12:48:37,624 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,624 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:57
+[[32mINFO [m] 2019-07-12 12:48:37,637 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,637 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:58
+[[32mINFO [m] 2019-07-12 12:48:37,647 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,647 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:59
+[[32mINFO [m] 2019-07-12 12:48:37,659 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,659 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:60
+[[32mINFO [m] 2019-07-12 12:48:37,670 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,671 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:61
+[[32mINFO [m] 2019-07-12 12:48:37,682 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,682 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:62
+[[32mINFO [m] 2019-07-12 12:48:37,694 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,694 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:63
+[[32mINFO [m] 2019-07-12 12:48:37,705 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,705 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:64
+[[32mINFO [m] 2019-07-12 12:48:37,719 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,719 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:65
+[[32mINFO [m] 2019-07-12 12:48:37,732 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,732 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:66
+[[32mINFO [m] 2019-07-12 12:48:37,744 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,744 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:67
+[[32mINFO [m] 2019-07-12 12:48:37,755 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,756 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:68
+[[32mINFO [m] 2019-07-12 12:48:37,771 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,771 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:69
+[[32mINFO [m] 2019-07-12 12:48:37,782 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,783 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:70
+[[32mINFO [m] 2019-07-12 12:48:37,794 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,794 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:71
+[[32mINFO [m] 2019-07-12 12:48:37,805 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,806 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:72
+[[32mINFO [m] 2019-07-12 12:48:37,816 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,816 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:73
+[[32mINFO [m] 2019-07-12 12:48:37,827 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,827 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:74
+[[32mINFO [m] 2019-07-12 12:48:37,839 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,839 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:75
+[[32mINFO [m] 2019-07-12 12:48:37,851 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,851 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:76
+[[32mINFO [m] 2019-07-12 12:48:37,864 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,864 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:77
+[[32mINFO [m] 2019-07-12 12:48:37,876 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,877 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:78
+[[32mINFO [m] 2019-07-12 12:48:37,890 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,890 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:79
+[[32mINFO [m] 2019-07-12 12:48:37,902 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,902 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:80
+[[32mINFO [m] 2019-07-12 12:48:37,914 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,914 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:81
+[[32mINFO [m] 2019-07-12 12:48:37,926 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,926 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:82
+[[32mINFO [m] 2019-07-12 12:48:37,937 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,938 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:83
+[[32mINFO [m] 2019-07-12 12:48:37,948 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,949 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:84
+[[32mINFO [m] 2019-07-12 12:48:37,962 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,962 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:85
+[[32mINFO [m] 2019-07-12 12:48:37,976 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,976 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:86
+[[32mINFO [m] 2019-07-12 12:48:37,989 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:37,989 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:87
+[[32mINFO [m] 2019-07-12 12:48:37,999 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,000 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:88
+[[32mINFO [m] 2019-07-12 12:48:38,010 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,010 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:89
+[[32mINFO [m] 2019-07-12 12:48:38,023 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,023 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:90
+[[32mINFO [m] 2019-07-12 12:48:38,034 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,034 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:91
+[[32mINFO [m] 2019-07-12 12:48:38,045 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,046 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:92
+[[32mINFO [m] 2019-07-12 12:48:38,056 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,056 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:93
+[[32mINFO [m] 2019-07-12 12:48:38,070 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,070 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:94
+[[32mINFO [m] 2019-07-12 12:48:38,081 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,082 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:95
+[[32mINFO [m] 2019-07-12 12:48:38,094 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,094 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:96
+[[32mINFO [m] 2019-07-12 12:48:38,115 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,115 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:97
+[[32mINFO [m] 2019-07-12 12:48:38,125 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,125 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:98
+[[32mINFO [m] 2019-07-12 12:48:38,142 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,143 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:99
+[[32mINFO [m] 2019-07-12 12:48:38,155 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,155 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:100
+[[32mINFO [m] 2019-07-12 12:48:38,167 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,168 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:200
+[[32mINFO [m] 2019-07-12 12:48:38,789 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:38,790 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:300
+[[32mINFO [m] 2019-07-12 12:48:39,379 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:39,380 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:400
+[[32mINFO [m] 2019-07-12 12:48:39,973 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:39,974 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:500
+[[32mINFO [m] 2019-07-12 12:48:40,610 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:40,610 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:600
+[[32mINFO [m] 2019-07-12 12:48:41,208 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:41,209 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:700
+[[32mINFO [m] 2019-07-12 12:48:41,833 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:41,833 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:800
+[[32mINFO [m] 2019-07-12 12:48:42,519 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:42,520 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:900
+[[32mINFO [m] 2019-07-12 12:48:43,103 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:43,104 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:1000
+[[32mINFO [m] 2019-07-12 12:48:43,705 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:43,705 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:1100
+[[32mINFO [m] 2019-07-12 12:48:44,299 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:44,300 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:1200
+[[32mINFO [m] 2019-07-12 12:48:44,904 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:44,905 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:1300
+[[32mINFO [m] 2019-07-12 12:48:45,518 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:45,519 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:1400
+[[32mINFO [m] 2019-07-12 12:48:46,153 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:46,154 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:1500
+[[32mINFO [m] 2019-07-12 12:48:46,831 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:46,831 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:1600
+[[32mINFO [m] 2019-07-12 12:48:47,458 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:47,458 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:1700
+[[32mINFO [m] 2019-07-12 12:48:48,023 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:48,024 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:1800
+[[32mINFO [m] 2019-07-12 12:48:48,580 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:48,580 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:1900
+[[32mINFO [m] 2019-07-12 12:48:49,170 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:49,170 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:2000
+[[32mINFO [m] 2019-07-12 12:48:49,736 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:49,736 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:2100
+[[32mINFO [m] 2019-07-12 12:48:50,299 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:50,299 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:2200
+[[32mINFO [m] 2019-07-12 12:48:50,885 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:50,886 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:2300
+[[32mINFO [m] 2019-07-12 12:48:51,514 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:51,514 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:2400
+[[32mINFO [m] 2019-07-12 12:48:52,119 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:52,120 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:2500
+[[32mINFO [m] 2019-07-12 12:48:52,708 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:52,709 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:2600
+[[32mINFO [m] 2019-07-12 12:48:53,308 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:53,308 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:2700
+[[32mINFO [m] 2019-07-12 12:48:53,908 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:53,908 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:2800
+[[32mINFO [m] 2019-07-12 12:48:54,522 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:54,523 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:2900
+[[32mINFO [m] 2019-07-12 12:48:55,181 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:55,181 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:3000
+[[32mINFO [m] 2019-07-12 12:48:55,805 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:55,806 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:3100
+[[32mINFO [m] 2019-07-12 12:48:56,419 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:56,420 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:3200
+[[32mINFO [m] 2019-07-12 12:48:57,048 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:57,048 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:3300
+[[32mINFO [m] 2019-07-12 12:48:57,669 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:57,670 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:3400
+[[32mINFO [m] 2019-07-12 12:48:58,358 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:58,359 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:3500
+[[32mINFO [m] 2019-07-12 12:48:58,973 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:58,973 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:3600
+[[32mINFO [m] 2019-07-12 12:48:59,605 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:48:59,605 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:3700
+[[32mINFO [m] 2019-07-12 12:49:00,253 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:00,254 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:3800
+[[32mINFO [m] 2019-07-12 12:49:00,928 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:00,929 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:3900
+[[32mINFO [m] 2019-07-12 12:49:01,582 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:01,583 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:4000
+[[32mINFO [m] 2019-07-12 12:49:02,251 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:02,251 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:4100
+[[32mINFO [m] 2019-07-12 12:49:02,998 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:02,999 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:4200
+[[32mINFO [m] 2019-07-12 12:49:03,628 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:03,629 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:4300
+[[32mINFO [m] 2019-07-12 12:49:04,269 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:04,270 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:4400
+[[32mINFO [m] 2019-07-12 12:49:05,014 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:05,015 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:4500
+[[32mINFO [m] 2019-07-12 12:49:05,666 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:05,667 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:4600
+[[32mINFO [m] 2019-07-12 12:49:06,404 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:06,405 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:4700
+[[32mINFO [m] 2019-07-12 12:49:07,026 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:07,026 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:4800
+[[32mINFO [m] 2019-07-12 12:49:07,650 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:07,651 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:4900
+[[32mINFO [m] 2019-07-12 12:49:08,367 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:08,368 GrabYggkService.gragSchoolMajorInfo() - Saving elements count:5000
+[[32mINFO [m] 2019-07-12 12:49:08,998 GrabYggkService.gragSchoolMajorInfo() - Successfully writing data to Database!
+[[32mINFO [m] 2019-07-12 12:49:08,998 GrabYggkService.gragSchoolMajorInfo() - Finish processing!
+[[32mINFO [m] 2019-07-12 12:49:09,014 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    37129812 nanoseconds spent acquiring 5001 JDBC connections;
+    18953222 nanoseconds spent releasing 5000 JDBC connections;
+    239335053 nanoseconds spent preparing 10149 JDBC statements;
+    8183593117 nanoseconds spent executing 10000 JDBC statements;
+    4054343538 nanoseconds spent executing 149 JDBC batches;
     0 nanoseconds spent performing 0 L2C puts;
     0 nanoseconds spent performing 0 L2C hits;
     0 nanoseconds spent performing 0 L2C misses;
-    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    4655411682 nanoseconds spent executing 149 flushes (flushing a total of 132450 entities and 0 collections);
     0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
 }

@@ -167,7 +167,7 @@ public class GrabYggkService {
 
     public void grabYggkSchoolSatisfy() {
         int START = 0;
-        int END = 20;
+        int END = 2440;
 
         List<List<String>> trList = new ArrayList<>();
 
@@ -189,34 +189,42 @@ public class GrabYggkService {
                         tdList.add(text);
                     }
                     trList.add(tdList);
+
+                }
+
+                if (trList.size() % 100 == 0) {
+                    writeMajorSatisfyToDB(trList);
                 }
             }
 
 
-            List<YggkSchoolSatisfy> schoolSatisfyList = new ArrayList<>();
-            for (int i = 0; i < trList.size(); i++) {
-                if (trList.get(i).size() == 6) {
-                    YggkSchoolSatisfy item = new YggkSchoolSatisfy();
-
-                    item.setName(trList.get(i).get(0));
-                    item.setCity(trList.get(i).get(1));
-                    item.setTotalSatisfy(trList.get(i).get(2));
-                    item.setEnvSatisfy(trList.get(i).get(3));
-                    item.setLifeSatisfy(trList.get(i).get(4));
-
-                    schoolSatisfyList.add(item);
-                    if (schoolSatisfyList.size() < 100 || schoolSatisfyList.size() % 100 == 0) {
-                        logger.info("Saving elements count:" + schoolSatisfyList.size());
-                        yggkSchoolSatisfyRepository.saveAll(schoolSatisfyList);
-                        logger.info("Successfully writing data to Database!");
-                    }
-                }
-            }
             logger.info("stop");
 
 
         } catch (Exception e) {
             e.printStackTrace();
+        }
+    }
+
+    private void writeMajorSatisfyToDB(List<List<String>> trList) {
+        List<YggkSchoolSatisfy> schoolSatisfyList = new ArrayList<>();
+        for (int i = 0; i < trList.size(); i++) {
+            if (trList.get(i).size() == 6) {
+                YggkSchoolSatisfy item = new YggkSchoolSatisfy();
+
+                item.setName(trList.get(i).get(0));
+                item.setCity(trList.get(i).get(1));
+                item.setTotalSatisfy(trList.get(i).get(2));
+                item.setEnvSatisfy(trList.get(i).get(3));
+                item.setLifeSatisfy(trList.get(i).get(4));
+
+                schoolSatisfyList.add(item);
+//                if (schoolSatisfyList.size() < 100 || schoolSatisfyList.size() % 100 == 0) {
+//                    logger.info("Saving elements count:" + schoolSatisfyList.size());
+                    yggkSchoolSatisfyRepository.saveAll(schoolSatisfyList);
+//                    logger.info("Successfully writing data to Database!");
+                }
+//            }
         }
     }
 

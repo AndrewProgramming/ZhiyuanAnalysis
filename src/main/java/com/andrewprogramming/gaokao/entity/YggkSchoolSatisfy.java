@@ -11,7 +11,7 @@ public class YggkSchoolSatisfy implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Long id;
 
     private String name;
     private String city;
@@ -21,11 +21,11 @@ public class YggkSchoolSatisfy implements Serializable {
     private String lifeSatisfy;
 
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

@@ -18,7 +18,7 @@ public class YggkSchool implements Serializable {
     @ApiModelProperty("id")
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Long id;
 
     private String name;
     private String city;
@@ -33,11 +33,11 @@ public class YggkSchool implements Serializable {
         return serialVersionUID;
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
