@@ -89,5 +89,6 @@ public class Util {
 
     public static Document sendJsoupRequest(String url) throws Exception {
         return Jsoup.connect(url).get();
+
     }
 }

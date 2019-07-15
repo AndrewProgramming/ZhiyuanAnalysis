@@ -37,4 +37,10 @@ public class GrabYggkController {
         service.grabYggkMajorSatisfyInfo();
     }
 
+  /*  @ApiOperation("爬取阳关高考网的学校,专业信息并存入数据库")
+    @GetMapping("/grab/YggkMajorSchoolInfo")
+    public void grabMajorSchoolInfo() {
+        service.grabMajorSchoolInfo();
+    }*/
+
 }

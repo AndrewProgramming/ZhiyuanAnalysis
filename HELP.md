@@ -1,9 +1,14 @@
 # Getting Started
 Used to Grab Information About China GaoKao Information
 
-##Start Mysql Database
+##Start MongoDB 
 ```dockerfile
-docker-compose up
+docker-compose  -f docker-compose-startMongo.yml up
+```
+
+##Start Mysql
+```dockerfile
+docker-compose -f docker-compose-startMysql.yml up
 ```
 
 ### [Swagger API Interface]

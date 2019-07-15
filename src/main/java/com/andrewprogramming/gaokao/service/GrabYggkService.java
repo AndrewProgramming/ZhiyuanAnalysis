@@ -1,26 +1,30 @@
 package com.andrewprogramming.gaokao.service;
 
 import com.andrewprogramming.gaokao.dao.YggkMajorSatisfyRepository;
+import com.andrewprogramming.gaokao.dao.YggkMajorSchoolRepository;
 import com.andrewprogramming.gaokao.dao.YggkSchoolRepository;
 import com.andrewprogramming.gaokao.dao.YggkSchoolSatisfyRepository;
 import com.andrewprogramming.gaokao.entity.YggkMajorSatisfy;
 import com.andrewprogramming.gaokao.entity.YggkSchool;
+import com.andrewprogramming.gaokao.entity.YggkSchoolMajor;
 import com.andrewprogramming.gaokao.entity.YggkSchoolSatisfy;
 import com.andrewprogramming.gaokao.util.Util;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.io.*;
 import java.net.SocketTimeoutException;
 import java.util.*;
 
-@org.springframework.stereotype.Service
+@Service
 public class GrabYggkService {
     private static final Logger logger = LogManager.getLogger(GrabYggkService.class);
     private StringBuilder sb = new StringBuilder();
@@ -33,6 +37,9 @@ public class GrabYggkService {
 
     @Autowired
     private YggkMajorSatisfyRepository yggkMajorSatisfyRepository;
+
+    @Autowired
+    private YggkMajorSchoolRepository yggkMajorSchoolRepository;
 
     {
         sb.append("院校名称,");
@@ -61,7 +68,6 @@ public class GrabYggkService {
             Document doc = null;
             try {
                 doc = Util.sendJsoupRequest(url);
-                Element table = doc.select("div.ch-table").first();
 
                 Elements trs = doc.select("table").select("tr");
                 for (int i = 0; i < trs.size(); i++) {
@@ -299,5 +305,107 @@ public class GrabYggkService {
             logger.error(ex);
             ex.printStackTrace();
         }
+    }
+
+
+    public void grabMajorSchoolInfo() {
+        try {
+            final String DOMAIN = "https://gaokao.chsi.com.cn";
+
+
+            Document mlCategory = Jsoup.connect("https://gaokao.chsi.com.cn/zyk/zybk/mlCategory.action")
+                    .data("key", "1050")
+                    .userAgent("Mozilla")
+                    .post();
+
+
+            Elements lis = mlCategory.select("li");
+            Map<String, String> mlMap = new LinkedHashMap<>();
+
+            for (Element li : lis) {
+                mlMap.put(li.text().substring(0, li.text().length() - 1), li.attr("id"));
+            }
+            System.out.println(mlMap);
+
+
+            Map<String, String> xkMap = new LinkedHashMap<>();
+
+            for (Map.Entry<String, String> entry : mlMap.entrySet()) {
+                String key = entry.getValue();
+                Document xkCategory = Jsoup.connect("https://gaokao.chsi.com.cn/zyk/zybk/xkCategory.action")
+                        .data("key", key)
+                        .userAgent("Mozilla")
+                        .post();
+
+                Elements xkList = xkCategory.select("li");
+                for (Element li : xkList) {
+                    xkMap.put(li.text().substring(0, li.text().length() - 1), li.attr("id"));
+                }
+
+            }
+            System.out.println(xkMap);
+
+            Map<String, String> schoolsLinkMap = new LinkedHashMap<>();
+            Map<String, String> desLinkMap = new LinkedHashMap<>();
+            for (Map.Entry<String, String> entry : xkMap.entrySet()) {
+                String key = entry.getValue();
+                Document typeCategory = Jsoup.connect("https://gaokao.chsi.com.cn/zyk/zybk/specialityesByCategory.action")
+                        .data("key", key)
+                        .userAgent("Mozilla")
+                        .post();
+
+                Element table = typeCategory.select(".ch-table").first();
+                Elements trs = table.select("tr");
+                for (int i = 1; i < trs.size(); i++) {
+                    Elements tds = trs.get(i).select("td");
+                    for (int j = 0; j < tds.size(); j++) {
+                        String schoolsLink = tds.get(2).select("a").attr("href");
+                        String desLink = tds.get(3).select("a").attr("href");
+
+                        schoolsLinkMap.put(tds.get(0).text(), DOMAIN + schoolsLink);
+                        desLinkMap.put(tds.get(0).text(), DOMAIN + desLink);
+                    }
+
+                }
+
+            }
+
+
+            Map<String, List<String>> schoolMajorMap = new LinkedHashMap<>();
+
+            for (Map.Entry<String, String> entry : schoolsLinkMap.entrySet()) {
+                String schoolUrl = entry.getValue();
+                Document schoolDoc = Jsoup.connect(schoolUrl).get();
+                Elements trs = schoolDoc.select("tbody").select("tr");
+                List<String> majorList = new LinkedList<>();
+                for (int k = 1; k < trs.size(); k++) {
+                    Elements tds = trs.get(k).select("td");
+
+                    if (tds.get(0) != null && !tds.get(0).text().isEmpty()) {
+                        majorList.add(tds.get(0).text());
+                    }
+
+                    if (tds.size() > 3 && !tds.get(3).text().isEmpty()) {
+                        majorList.add(tds.get(3).text());
+                    }
+
+                }
+                schoolMajorMap.put(entry.getKey(), majorList);
+            }
+
+            for (Map.Entry<String, List<String>> entry : schoolMajorMap.entrySet()) {
+                YggkSchoolMajor yggkSchoolMajor = new YggkSchoolMajor();
+                yggkSchoolMajor.setMajorName(entry.getKey());
+                yggkSchoolMajor.setSchoolNameList(entry.getValue());
+
+                yggkMajorSchoolRepository.save(yggkSchoolMajor);
+
+
+            }
+        } catch (Exception ex) {
+            logger.error(ex);
+            ex.printStackTrace();
+        }
+
     }
 }
