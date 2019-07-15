@@ -3,6 +3,7 @@
     <Properties>
         <Property name="logPath">./</Property>
         <Property name="rollingFileName">gao_kao_log</Property>
+        <Property name="logPath">/var/log/gao_kao</Property>
     </Properties>
     <Appenders>
         <Console name="console" target="SYSTEM_OUT">
