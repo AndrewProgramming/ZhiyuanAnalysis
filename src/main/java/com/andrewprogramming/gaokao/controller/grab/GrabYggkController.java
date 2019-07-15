@@ -8,7 +8,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @Api(tags = "爬虫接口", description = "爬取阳关高考网上的院校信息Rest API")
@@ -26,14 +25,16 @@ public class GrabYggkController {
         service.grabYggkSchoolInfo();
     }
 
+    @ApiOperation("爬取阳光高考网的院校满意度信息并存入数据库")
     @GetMapping("/grab/YggkSchoolSatisfyInfo")
     public void grabYggkSchoolSatisfy() {
         service.grabYggkSchoolSatisfy();
     }
 
+    @ApiOperation("爬取阳光高考网的专业满意度信息并存入数据库")
     @GetMapping("/grab/YggkSchoolMajorInfo")
-    public void gragSchoolMajorInfo() {
-        service.gragSchoolMajorInfo();
+    public void gragSchoolMajorSatisfyInfo() {
+        service.grabYggkMajorSatisfyInfo();
     }
 
 }

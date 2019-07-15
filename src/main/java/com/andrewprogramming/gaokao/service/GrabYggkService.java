@@ -192,9 +192,8 @@ public class GrabYggkService {
 
                 }
 
-                if (trList.size() % 100 == 0) {
-                    writeMajorSatisfyToDB(trList);
-                }
+                writeMajorSatisfyToDB(trList);
+
             }
 
 
@@ -219,20 +218,22 @@ public class GrabYggkService {
                 item.setLifeSatisfy(trList.get(i).get(4));
 
                 schoolSatisfyList.add(item);
-//                if (schoolSatisfyList.size() < 100 || schoolSatisfyList.size() % 100 == 0) {
-//                    logger.info("Saving elements count:" + schoolSatisfyList.size());
+                if (schoolSatisfyList.size() < 100 || schoolSatisfyList.size() % 100 == 0) {
+                    logger.info("Saving elements count:" + schoolSatisfyList.size());
                     yggkSchoolSatisfyRepository.saveAll(schoolSatisfyList);
-//                    logger.info("Successfully writing data to Database!");
+                    logger.info("Successfully writing data to Database!");
                 }
-//            }
+            }
         }
     }
 
-    public void gragSchoolMajorInfo() {
+    public void grabYggkMajorSatisfyInfo() {
         int START = 0;
-        int END = 100;
+        int END = 2600;
 
         List<List<String>> trList = new ArrayList<>();
+        List<YggkMajorSatisfy> majorSatisfyList = new LinkedList<>();
+
 
         try {
             for (int counter = START; counter <= END; counter += 20) {
@@ -243,7 +244,6 @@ public class GrabYggkService {
                 doc = Util.sendJsoupRequest(url);
                 Elements trs = doc.select(".cnt_table").select("tr");
 
-//                List<List<String>> trList1 = new ArrayList<>();
 
                 for (int i = 0; i < trs.size(); i++) {
                     Elements tds = trs.get(i).select("td");
@@ -251,7 +251,7 @@ public class GrabYggkService {
                     String link = tds.get(6).select("a").first().attr("href");
 
 
-                    String schoolMajorUrl = "https://gaokao.chsi.com.cn/" + link;
+                    String schoolMajorUrl = "https://gaokao.chsi.com.cn" + link;
                     logger.info("Processing url:" + schoolMajorUrl);
                     Document schoolMajorDoc = Util.sendJsoupRequest(schoolMajorUrl);
 
@@ -267,31 +267,32 @@ public class GrabYggkService {
                         }
                         trList.add(tdList);
                     }
+
+                    if (counter % 10 == 0) {
+                        for (int m1 = 0; m1 < trList.size(); m1++) {
+                            YggkMajorSatisfy item = new YggkMajorSatisfy();
+                            List<String> innerList = trList.get(m1);
+                            for (int j = 0; j < innerList.size(); j++) {
+                                item.setSchoolName(innerList.get(0));
+                                item.setMajorName(innerList.get(1));
+                                item.setTotalSatisfy(innerList.get(2));
+                                item.setHardwareSatisfy(innerList.get(3));
+                                item.setTeachQualitySatisfy(innerList.get(4));
+                                item.setGetJobSatisfy(innerList.get(5));
+                            }
+
+                            majorSatisfyList.add(item);
+
+                            if (majorSatisfyList.size() < 100 || majorSatisfyList.size() % 100 == 0) {
+                                logger.info("Saving elements count:" + majorSatisfyList.size());
+                                yggkMajorSatisfyRepository.saveAll(majorSatisfyList);
+                                logger.info("Successfully writing data to Database!");
+                            }
+                        }
+                    }
                 }
             }
 
-            List<YggkMajorSatisfy> majorSatisfyList = new LinkedList<>();
-
-            for (int i = 0; i < trList.size(); i++) {
-                YggkMajorSatisfy item = new YggkMajorSatisfy();
-                List<String> innerList = trList.get(i);
-                for (int j = 0; j < innerList.size(); j++) {
-                    item.setSchoolName(innerList.get(0));
-                    item.setMajorName(innerList.get(1));
-                    item.setTotalSatisfy(innerList.get(2));
-                    item.setHardwareSatisfy(innerList.get(3));
-                    item.setTeachQualitySatisfy(innerList.get(4));
-                    item.setGetJobSatisfy(innerList.get(5));
-                }
-
-                majorSatisfyList.add(item);
-
-                if (majorSatisfyList.size() < 100 || majorSatisfyList.size() % 100 == 0) {
-                    logger.info("Saving elements count:" + majorSatisfyList.size());
-                    yggkMajorSatisfyRepository.saveAll(majorSatisfyList);
-                    logger.info("Successfully writing data to Database!");
-                }
-            }
 
             logger.info("Finish processing!");
         } catch (Exception ex) {

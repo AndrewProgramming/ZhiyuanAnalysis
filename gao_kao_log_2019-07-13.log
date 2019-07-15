@@ -1,0 +1,611 @@
+[[32mINFO [m] 2019-07-13 20:43:00,658 GaokaoApplication.logStarting() - Starting GaokaoApplication on 192.168.0.103 with PID 29278 (/Users/liuyanling/Desktop/code/ZhiyuanAnalysis/target/classes started by liuyanling in /Users/liuyanling/Desktop/code/ZhiyuanAnalysis)
+[[32mINFO [m] 2019-07-13 20:43:00,673 GaokaoApplication.logStartupProfileInfo() - No active profile set, falling back to default profiles: default
+[[32mINFO [m] 2019-07-13 20:43:00,861 DevToolsPropertyDefaultsPostProcessor.logTo() - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[[32mINFO [m] 2019-07-13 20:43:00,863 DevToolsPropertyDefaultsPostProcessor.logTo() - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[[32mINFO [m] 2019-07-13 20:43:02,597 RepositoryConfigurationDelegate.registerRepositoriesIn() - Bootstrapping Spring Data repositories in DEFAULT mode.
+[[32mINFO [m] 2019-07-13 20:43:02,727 RepositoryConfigurationDelegate.registerRepositoriesIn() - Finished Spring Data repository scanning in 116ms. Found 3 repository interfaces.
+[[32mINFO [m] 2019-07-13 20:43:03,404 PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization() - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7c1a71aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[[32mINFO [m] 2019-07-13 20:43:04,256 TomcatWebServer.initialize() - Tomcat initialized with port(s): 8080 (http)
+[[32mINFO [m] 2019-07-13 20:43:04,278 Http11NioProtocol.log() - Initializing ProtocolHandler ["http-nio-8080"]
+[[32mINFO [m] 2019-07-13 20:43:04,291 StandardService.log() - Starting service [Tomcat]
+[[32mINFO [m] 2019-07-13 20:43:04,292 StandardEngine.log() - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[[32mINFO [m] 2019-07-13 20:43:04,428 [/].log() - Initializing Spring embedded WebApplicationContext
+[[32mINFO [m] 2019-07-13 20:43:04,428 ContextLoader.prepareWebApplicationContext() - Root WebApplicationContext: initialization completed in 3564 ms
+[[32mINFO [m] 2019-07-13 20:43:04,726 HikariDataSource.getConnection() - HikariPool-1 - Starting...
+[[32mINFO [m] 2019-07-13 20:43:04,944 HikariDataSource.getConnection() - HikariPool-1 - Start completed.
+[[32mINFO [m] 2019-07-13 20:43:05,012 LogHelper.logPersistenceUnitInformation() - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+[[32mINFO [m] 2019-07-13 20:43:05,130 Version.logVersion() - HHH000412: Hibernate Core {5.3.10.Final}
+[[32mINFO [m] 2019-07-13 20:43:05,134 Environment.<clinit>() - HHH000206: hibernate.properties not found
+[[32mINFO [m] 2019-07-13 20:43:05,488 Version.<clinit>() - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[[32mINFO [m] 2019-07-13 20:43:05,708 Dialect.<init>() - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+[[32mINFO [m] 2019-07-13 20:43:07,190 LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory() - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[[32mINFO [m] 2019-07-13 20:43:07,293 OptionalLiveReloadServer.startServer() - LiveReload server is running on port 35729
+[[32mINFO [m] 2019-07-13 20:43:07,636 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:07,645 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:07,796 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:08,013 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:08,127 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:08,135 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:08,358 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:08,360 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:08,392 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:08,406 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:08,412 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:08,460 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:08,492 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:08,494 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[33mWARN [m] 2019-07-13 20:43:09,246 JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration.openEntityManagerInViewInterceptor() - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[[32mINFO [m] 2019-07-13 20:43:09,489 PropertySourcedRequestMappingHandlerMapping.initHandlerMethods() - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[[32mINFO [m] 2019-07-13 20:43:09,788 ThreadPoolTaskExecutor.initialize() - Initializing ExecutorService 'applicationTaskExecutor'
+[[33mWARN [m] 2019-07-13 20:43:10,077 ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration.checkTemplateLocationExists() - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+[[32mINFO [m] 2019-07-13 20:43:10,645 DocumentationPluginsBootstrapper.start() - Context refreshed
+[[32mINFO [m] 2019-07-13 20:43:10,684 DocumentationPluginsBootstrapper.start() - Found 1 custom documentation plugin(s)
+[[32mINFO [m] 2019-07-13 20:43:10,743 ApiListingReferenceScanner.scan() - Scanning for api listing references
+[[32mINFO [m] 2019-07-13 20:43:11,404 Http11NioProtocol.log() - Starting ProtocolHandler ["http-nio-8080"]
+[[32mINFO [m] 2019-07-13 20:43:11,507 TomcatWebServer.start() - Tomcat started on port(s): 8080 (http) with context path ''
+[[32mINFO [m] 2019-07-13 20:43:11,514 GaokaoApplication.logStarted() - Started GaokaoApplication in 12.411 seconds (JVM running for 15.893)
+[[32mINFO [m] 2019-07-13 20:43:54,226 [/].log() - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[[32mINFO [m] 2019-07-13 20:43:54,227 DispatcherServlet.initServletBean() - Initializing Servlet 'dispatcherServlet'
+[[32mINFO [m] 2019-07-13 20:43:54,238 DispatcherServlet.initServletBean() - Completed initialization in 10 ms
+[[32mINFO [m] 2019-07-13 20:43:54,277 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:54,331 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:58,772 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:58,838 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:58,844 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:58,874 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:58,907 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:59,160 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:59,850 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:59,866 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:43:59,879 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:44:00,184 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:44:00,199 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:44:00,214 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:44:00,224 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:44:00,476 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:44:00,495 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:44:02,117 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    0 nanoseconds spent acquiring 0 JDBC connections;
+    0 nanoseconds spent releasing 0 JDBC connections;
+    0 nanoseconds spent preparing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC statements;
+    0 nanoseconds spent executing 0 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    0 nanoseconds spent executing 0 flushes (flushing a total of 0 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
+[[32mINFO [m] 2019-07-13 20:44:07,120 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-0.dhtml
+[[1;31mERROR[m] 2019-07-13 20:44:30,033 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:44:30,034 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-20.dhtml
+[[1;31mERROR[m] 2019-07-13 20:44:45,058 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:44:45,060 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-40.dhtml
+[[1;31mERROR[m] 2019-07-13 20:45:00,078 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:45:00,079 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-60.dhtml
+[[1;31mERROR[m] 2019-07-13 20:45:15,105 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:45:15,105 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-80.dhtml
+[[1;31mERROR[m] 2019-07-13 20:45:30,124 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:45:30,125 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-100.dhtml
+[[1;31mERROR[m] 2019-07-13 20:45:45,142 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:45:45,144 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-120.dhtml
+[[1;31mERROR[m] 2019-07-13 20:46:00,944 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:46:00,945 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-140.dhtml
+[[1;31mERROR[m] 2019-07-13 20:46:15,968 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:46:15,970 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-160.dhtml
+[[32mINFO [m] 2019-07-13 20:46:16,622 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-180.dhtml
+[[32mINFO [m] 2019-07-13 20:46:16,982 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-200.dhtml
+[[32mINFO [m] 2019-07-13 20:46:17,376 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-220.dhtml
+[[32mINFO [m] 2019-07-13 20:46:17,680 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-240.dhtml
+[[32mINFO [m] 2019-07-13 20:46:18,101 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-260.dhtml
+[[32mINFO [m] 2019-07-13 20:46:18,370 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-280.dhtml
+[[32mINFO [m] 2019-07-13 20:46:18,804 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-300.dhtml
+[[32mINFO [m] 2019-07-13 20:46:19,110 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-320.dhtml
+[[32mINFO [m] 2019-07-13 20:46:32,058 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-340.dhtml
+[[32mINFO [m] 2019-07-13 20:46:32,345 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-360.dhtml
+[[32mINFO [m] 2019-07-13 20:46:32,735 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-380.dhtml
+[[32mINFO [m] 2019-07-13 20:46:33,136 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-400.dhtml
+[[32mINFO [m] 2019-07-13 20:46:33,461 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-420.dhtml
+[[32mINFO [m] 2019-07-13 20:46:34,571 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-440.dhtml
+[[32mINFO [m] 2019-07-13 20:46:34,987 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-460.dhtml
+[[32mINFO [m] 2019-07-13 20:46:35,304 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-480.dhtml
+[[32mINFO [m] 2019-07-13 20:46:35,716 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-500.dhtml
+[[32mINFO [m] 2019-07-13 20:46:36,007 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-520.dhtml
+[[32mINFO [m] 2019-07-13 20:46:36,312 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-540.dhtml
+[[32mINFO [m] 2019-07-13 20:46:36,743 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-560.dhtml
+[[32mINFO [m] 2019-07-13 20:46:37,044 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-580.dhtml
+[[32mINFO [m] 2019-07-13 20:46:37,371 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-600.dhtml
+[[32mINFO [m] 2019-07-13 20:46:37,753 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-620.dhtml
+[[32mINFO [m] 2019-07-13 20:46:38,161 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-640.dhtml
+[[32mINFO [m] 2019-07-13 20:46:38,565 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-660.dhtml
+[[32mINFO [m] 2019-07-13 20:46:38,820 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-680.dhtml
+[[32mINFO [m] 2019-07-13 20:46:39,096 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-700.dhtml
+[[32mINFO [m] 2019-07-13 20:46:39,391 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-720.dhtml
+[[32mINFO [m] 2019-07-13 20:46:39,671 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-740.dhtml
+[[32mINFO [m] 2019-07-13 20:46:40,013 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-760.dhtml
+[[32mINFO [m] 2019-07-13 20:46:40,521 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-780.dhtml
+[[32mINFO [m] 2019-07-13 20:46:40,925 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-800.dhtml
+[[32mINFO [m] 2019-07-13 20:46:41,331 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-820.dhtml
+[[32mINFO [m] 2019-07-13 20:46:41,653 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-840.dhtml
+[[32mINFO [m] 2019-07-13 20:46:42,173 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-860.dhtml
+[[1;31mERROR[m] 2019-07-13 20:46:57,179 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:46:57,179 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-880.dhtml
+[[1;31mERROR[m] 2019-07-13 20:47:12,200 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:47:12,202 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-900.dhtml
+[[1;31mERROR[m] 2019-07-13 20:47:27,220 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:47:27,221 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-920.dhtml
+[[1;31mERROR[m] 2019-07-13 20:47:42,934 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:47:42,935 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-940.dhtml
+[[1;31mERROR[m] 2019-07-13 20:47:57,956 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:47:57,958 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-960.dhtml
+[[32mINFO [m] 2019-07-13 20:47:58,335 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-980.dhtml
+[[32mINFO [m] 2019-07-13 20:47:58,655 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1000.dhtml
+[[32mINFO [m] 2019-07-13 20:47:59,053 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1020.dhtml
+[[32mINFO [m] 2019-07-13 20:47:59,301 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1040.dhtml
+[[32mINFO [m] 2019-07-13 20:47:59,776 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1060.dhtml
+[[1;31mERROR[m] 2019-07-13 20:48:14,795 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:48:14,796 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1080.dhtml
+[[1;31mERROR[m] 2019-07-13 20:48:29,815 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:48:29,815 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1100.dhtml
+[[1;31mERROR[m] 2019-07-13 20:48:44,840 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:48:44,841 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1120.dhtml
+[[1;31mERROR[m] 2019-07-13 20:48:59,866 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:48:59,868 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1140.dhtml
+[[1;31mERROR[m] 2019-07-13 20:49:15,892 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:49:15,894 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1160.dhtml
+[[1;31mERROR[m] 2019-07-13 20:49:30,935 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:49:30,937 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1180.dhtml
+[[1;31mERROR[m] 2019-07-13 20:49:45,957 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:49:45,958 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1200.dhtml
+[[1;31mERROR[m] 2019-07-13 20:50:01,002 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:50:01,003 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1220.dhtml
+[[1;31mERROR[m] 2019-07-13 20:50:16,029 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:50:16,030 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1240.dhtml
+[[32mINFO [m] 2019-07-13 20:50:16,712 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1260.dhtml
+[[32mINFO [m] 2019-07-13 20:50:17,298 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1280.dhtml
+[[32mINFO [m] 2019-07-13 20:50:17,711 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1300.dhtml
+[[32mINFO [m] 2019-07-13 20:50:18,008 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1320.dhtml
+[[32mINFO [m] 2019-07-13 20:50:18,316 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1340.dhtml
+[[32mINFO [m] 2019-07-13 20:50:18,621 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1360.dhtml
+[[32mINFO [m] 2019-07-13 20:50:19,132 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1380.dhtml
+[[32mINFO [m] 2019-07-13 20:50:19,541 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1400.dhtml
+[[32mINFO [m] 2019-07-13 20:50:19,967 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1420.dhtml
+[[32mINFO [m] 2019-07-13 20:50:20,374 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1440.dhtml
+[[32mINFO [m] 2019-07-13 20:50:20,775 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1460.dhtml
+[[32mINFO [m] 2019-07-13 20:50:21,183 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1480.dhtml
+[[32mINFO [m] 2019-07-13 20:50:21,464 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1500.dhtml
+[[32mINFO [m] 2019-07-13 20:50:22,014 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1520.dhtml
+[[32mINFO [m] 2019-07-13 20:50:22,513 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1540.dhtml
+[[32mINFO [m] 2019-07-13 20:50:22,929 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1560.dhtml
+[[32mINFO [m] 2019-07-13 20:50:23,333 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1580.dhtml
+[[32mINFO [m] 2019-07-13 20:50:23,655 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1600.dhtml
+[[32mINFO [m] 2019-07-13 20:50:23,937 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1620.dhtml
+[[32mINFO [m] 2019-07-13 20:50:24,267 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1640.dhtml
+[[32mINFO [m] 2019-07-13 20:50:24,666 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1660.dhtml
+[[32mINFO [m] 2019-07-13 20:50:25,087 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1680.dhtml
+[[32mINFO [m] 2019-07-13 20:50:25,485 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1700.dhtml
+[[32mINFO [m] 2019-07-13 20:50:25,903 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1720.dhtml
+[[32mINFO [m] 2019-07-13 20:50:26,188 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1740.dhtml
+[[32mINFO [m] 2019-07-13 20:50:26,512 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1760.dhtml
+[[32mINFO [m] 2019-07-13 20:50:26,828 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1780.dhtml
+[[32mINFO [m] 2019-07-13 20:50:27,254 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1800.dhtml
+[[32mINFO [m] 2019-07-13 20:50:27,774 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1820.dhtml
+[[32mINFO [m] 2019-07-13 20:50:28,055 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1840.dhtml
+[[32mINFO [m] 2019-07-13 20:50:28,369 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1860.dhtml
+[[32mINFO [m] 2019-07-13 20:50:28,645 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1880.dhtml
+[[32mINFO [m] 2019-07-13 20:50:28,899 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1900.dhtml
+[[32mINFO [m] 2019-07-13 20:50:29,412 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1920.dhtml
+[[32mINFO [m] 2019-07-13 20:50:29,895 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1940.dhtml
+[[32mINFO [m] 2019-07-13 20:50:30,304 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1960.dhtml
+[[32mINFO [m] 2019-07-13 20:50:30,630 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-1980.dhtml
+[[32mINFO [m] 2019-07-13 20:50:30,971 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2000.dhtml
+[[32mINFO [m] 2019-07-13 20:50:31,321 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2020.dhtml
+[[32mINFO [m] 2019-07-13 20:50:31,632 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2040.dhtml
+[[32mINFO [m] 2019-07-13 20:50:32,050 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2060.dhtml
+[[32mINFO [m] 2019-07-13 20:50:32,332 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2080.dhtml
+[[32mINFO [m] 2019-07-13 20:50:32,753 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2100.dhtml
+[[32mINFO [m] 2019-07-13 20:50:33,074 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2120.dhtml
+[[1;31mERROR[m] 2019-07-13 20:50:48,077 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:50:48,079 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2140.dhtml
+[[1;31mERROR[m] 2019-07-13 20:51:03,939 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:51:03,940 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2160.dhtml
+[[1;31mERROR[m] 2019-07-13 20:51:18,961 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:51:18,962 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2180.dhtml
+[[1;31mERROR[m] 2019-07-13 20:51:33,980 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:51:33,981 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2200.dhtml
+[[1;31mERROR[m] 2019-07-13 20:51:48,996 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:51:48,997 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2220.dhtml
+[[1;31mERROR[m] 2019-07-13 20:52:04,018 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:52:04,019 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2240.dhtml
+[[1;31mERROR[m] 2019-07-13 20:52:19,038 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:52:19,038 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2260.dhtml
+[[1;31mERROR[m] 2019-07-13 20:52:34,871 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:52:34,873 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2280.dhtml
+[[32mINFO [m] 2019-07-13 20:52:35,234 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2300.dhtml
+[[32mINFO [m] 2019-07-13 20:52:35,646 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2320.dhtml
+[[32mINFO [m] 2019-07-13 20:52:35,944 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2340.dhtml
+[[32mINFO [m] 2019-07-13 20:52:36,250 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2360.dhtml
+[[32mINFO [m] 2019-07-13 20:52:36,663 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2380.dhtml
+[[32mINFO [m] 2019-07-13 20:52:37,080 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2400.dhtml
+[[32mINFO [m] 2019-07-13 20:52:37,312 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2420.dhtml
+[[32mINFO [m] 2019-07-13 20:52:37,651 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2440.dhtml
+[[32mINFO [m] 2019-07-13 20:52:37,986 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2460.dhtml
+[[32mINFO [m] 2019-07-13 20:52:38,270 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2480.dhtml
+[[32mINFO [m] 2019-07-13 20:52:38,546 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2500.dhtml
+[[32mINFO [m] 2019-07-13 20:52:39,042 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2520.dhtml
+[[32mINFO [m] 2019-07-13 20:52:39,431 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2540.dhtml
+[[32mINFO [m] 2019-07-13 20:52:39,840 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2560.dhtml
+[[32mINFO [m] 2019-07-13 20:52:40,159 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2580.dhtml
+[[32mINFO [m] 2019-07-13 20:52:40,455 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2600.dhtml
+[[32mINFO [m] 2019-07-13 20:52:40,759 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2620.dhtml
+[[32mINFO [m] 2019-07-13 20:52:41,169 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2640.dhtml
+[[32mINFO [m] 2019-07-13 20:52:41,476 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2660.dhtml
+[[32mINFO [m] 2019-07-13 20:52:41,791 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2680.dhtml
+[[32mINFO [m] 2019-07-13 20:52:42,202 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2700.dhtml
+[[1;31mERROR[m] 2019-07-13 20:52:57,208 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:52:57,209 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2720.dhtml
+[[1;31mERROR[m] 2019-07-13 20:53:12,229 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:53:12,232 GrabYggkService.grabYggkSchoolInfo() - Processing url:https://gaokao.chsi.com.cn/sch/search--ss-on,searchType-1,option-qg,start-2740.dhtml
+[[1;31mERROR[m] 2019-07-13 20:53:27,254 GrabYggkService.grabYggkSchoolInfo() - java.net.SocketTimeoutException: Read timed out
+[[32mINFO [m] 2019-07-13 20:53:27,254 GrabYggkService.wirteObjectToDB() - Saving elements count:1
+[[32mINFO [m] 2019-07-13 20:53:27,439 AbstractBatchImpl.release() - HHH000010: On release of batch it still contained JDBC statements
+[[1;31mERROR[m] 2019-07-13 20:53:27,440 BatchingBatch.performExecution() - HHH000315: Exception executing batch [java.sql.BatchUpdateException: Incorrect string value: '\xE5\xA4\xA9\xE6\xB4\xA5...' for column 'belong' at row 1], SQL: insert into yggk_school_info (belong, city, feature, level, name, satisfy, type, yjsy, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?)
+[[33mWARN [m] 2019-07-13 20:53:27,440 SqlExceptionHelper.logExceptions() - SQL Error: 1366, SQLState: HY000
+[[1;31mERROR[m] 2019-07-13 20:53:27,441 SqlExceptionHelper.logExceptions() - Incorrect string value: '\xE5\xA4\xA9\xE6\xB4\xA5...' for column 'belong' at row 1
+[[1;31mERROR[m] 2019-07-13 20:53:27,449 ExceptionMapperStandardImpl.mapManagedFlushFailure() - HHH000346: Error during managed flush [org.hibernate.exception.GenericJDBCException: could not execute batch]
+[[1;31mERROR[m] 2019-07-13 20:53:27,465 GrabYggkService.wirteObjectToDB() - org.springframework.orm.jpa.JpaSystemException: could not execute batch; nested exception is org.hibernate.exception.GenericJDBCException: could not execute batch
+[[32mINFO [m] 2019-07-13 20:53:27,477 StatisticalLoggingSessionEventListener.end() - Session Metrics {
+    6208329 nanoseconds spent acquiring 2 JDBC connections;
+    461685 nanoseconds spent releasing 1 JDBC connections;
+    11741270 nanoseconds spent preparing 3 JDBC statements;
+    18316959 nanoseconds spent executing 2 JDBC statements;
+    21787810 nanoseconds spent executing 1 JDBC batches;
+    0 nanoseconds spent performing 0 L2C puts;
+    0 nanoseconds spent performing 0 L2C hits;
+    0 nanoseconds spent performing 0 L2C misses;
+    59431887 nanoseconds spent executing 1 flushes (flushing a total of 1 entities and 0 collections);
+    0 nanoseconds spent executing 0 partial-flushes (flushing a total of 0 entities and 0 collections)
+}
