@@ -6,7 +6,7 @@ import com.andrewprogramming.gaokao.dao.YggkSchoolRepository;
 import com.andrewprogramming.gaokao.dao.YggkSchoolSatisfyRepository;
 import com.andrewprogramming.gaokao.entity.YggkMajorSatisfy;
 import com.andrewprogramming.gaokao.entity.YggkSchool;
-import com.andrewprogramming.gaokao.entity.YggkSchoolMajor;
+import com.andrewprogramming.gaokao.entity.YggkMajorSchool;
 import com.andrewprogramming.gaokao.entity.YggkSchoolSatisfy;
 import com.andrewprogramming.gaokao.util.Util;
 
@@ -325,7 +325,7 @@ public class GrabYggkService {
             for (Element li : lis) {
                 mlMap.put(li.text().substring(0, li.text().length() - 1), li.attr("id"));
             }
-            System.out.println(mlMap);
+            logger.debug(mlMap);
 
 
             Map<String, String> xkMap = new LinkedHashMap<>();
@@ -341,9 +341,10 @@ public class GrabYggkService {
                 for (Element li : xkList) {
                     xkMap.put(li.text().substring(0, li.text().length() - 1), li.attr("id"));
                 }
+                break;
 
             }
-            System.out.println(xkMap);
+            logger.debug(xkMap);
 
             Map<String, String> schoolsLinkMap = new LinkedHashMap<>();
             Map<String, String> desLinkMap = new LinkedHashMap<>();
@@ -368,6 +369,7 @@ public class GrabYggkService {
 
                 }
 
+                break;
             }
 
 
@@ -394,11 +396,13 @@ public class GrabYggkService {
             }
 
             for (Map.Entry<String, List<String>> entry : schoolMajorMap.entrySet()) {
-                YggkSchoolMajor yggkSchoolMajor = new YggkSchoolMajor();
-                yggkSchoolMajor.setMajorName(entry.getKey());
-                yggkSchoolMajor.setSchoolNameList(entry.getValue());
+                YggkMajorSchool yggkSchoolMajor = new YggkMajorSchool();
+                yggkSchoolMajor.setMajor(entry.getKey());
+                yggkSchoolMajor.setSchools(entry.getValue());
 
+                logger.info("Start saving information to DB");
                 yggkMajorSchoolRepository.save(yggkSchoolMajor);
+                logger.info("Successfully saving information to DB");
 
 
             }

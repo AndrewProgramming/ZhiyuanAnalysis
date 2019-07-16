@@ -13,5 +13,5 @@ docker-compose -f docker-compose-startMysql.yml up
 
 ### [Swagger API Interface]
 
-http://localhost:8080/swagger-ui.html
+http://localhost:8888/swagger-ui.html
 
